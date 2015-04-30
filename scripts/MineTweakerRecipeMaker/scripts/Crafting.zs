@@ -27,6 +27,8 @@
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.remove(<NuclearCraft:parts:2>);
+recipes.addShaped(<NuclearCraft:parts:2>, [[<ore:flint>, <ore:flint>, <ore:flint>], [<ore:ingotDesh>, <ore:ingotDesh>, <ore:ingotDesh>], [<minecraft:stick>, <ore:stickWood>, <ore:stickWood>]]);
 recipes.remove(<superMassiveTech:starHarvester>);
 recipes.addShaped(<superMassiveTech:starHarvester>, [[<ore:blueGem>, <ore:blueGem>, <ore:blueGem>], [<minecraft:iron_bars>, null, <minecraft:iron_bars>], [<ore:blueGem>, <SpacePluto:null>, <ore:blueGem>]]);
 recipes.addShaped(<ExtraUtilities:cursedearthside>, [[<ore:dirt>, <minecraft:dirt>, <ore:dirt>], [<ore:dirt>, <minecraft:nether_star>, <ore:dirt>], [<ore:dirt>, <ore:dirt>, <ore:dirt>]]);
