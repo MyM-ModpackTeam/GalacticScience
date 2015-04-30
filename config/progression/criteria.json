@@ -1,0 +1,12 @@
+{
+  "tabs": [
+    {
+      "uniqueName": "DEFAULT",
+      "displayName": "Default",
+      "sortIndex": 0,
+      "isVisible": true,
+      "stack": "minecraft:book 0 *1",
+      "criteria": []
+    }
+  ]
+}
