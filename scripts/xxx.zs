@@ -40,6 +40,7 @@ mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:gu
 mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.mars:9>, <GalacticraftMars:tile.mars:2>, 100);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.mars:5>, <GalacticraftMars:tile.mars:2>, 100);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.mars:6>, <GalacticraftMars:tile.mars:2>, 100);
+
 mods.exnihilo.Sieve.addRecipe(<SpaceMercury:mercury_block:2>, <SpaceMercury:mercury_block:4>, 100);
 mods.exnihilo.Sieve.addRecipe(<SpaceMercury:mercury_block:1>, <SpaceMercury:mercury_block:4>, 100);
 mods.exnihilo.Sieve.addRecipe(<SpaceMercury:mercury_block>, <SpaceMercury:mercury_block:4>, 100);
