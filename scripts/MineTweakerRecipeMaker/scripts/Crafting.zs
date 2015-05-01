@@ -36,6 +36,7 @@ recipes.remove(<SolarFlux:solar1>);
 recipes.remove(<SolarFlux:solar2>);
 recipes.remove(<SolarFlux:solar3>);
 recipes.remove(<EnderIO:itemMachinePart>);
+recipes.remove(<minechem:tile.fusionWall>);
 recipes.addShaped(<SolarFlux:solar3>, [[<SpaceMercury:null:2>, <SpaceMercury:null:2>, <SpaceMercury:null:2>], [<SpaceMercury:null:2>, <SolarFlux:solar2>, <SpaceMercury:null:2>], [<SpaceMercury:null:2>, <SpaceMercury:null:2>, <SpaceMercury:null:2>]]);
 recipes.addShaped(<SolarFlux:solar2>, [[<GalacticraftMars:tile.mars:8>, <GalacticraftMars:tile.mars:8>, <GalacticraftMars:tile.mars:8>], [<GalacticraftMars:tile.mars:8>, <SolarFlux:solar1>, <GalacticraftMars:tile.mars:8>], [<GalacticraftMars:tile.mars:8>, <GalacticraftMars:tile.mars:8>, <GalacticraftMars:tile.mars:8>]]);
 recipes.addShaped(<minechem:tile.fusionWall>, [[<ore:ingotDesh>, <ore:element_Pb>, <ore:ingotDesh>], [<ore:ingotDesh>, <minechem:minechemElement:82>, <GalacticraftMars:item.null:2>], [<GalacticraftMars:item.null:2>, <ore:element_Pb>, <ore:ingotDesh>]]);
