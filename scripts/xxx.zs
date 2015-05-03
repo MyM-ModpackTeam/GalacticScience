@@ -23,13 +23,14 @@ mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <exnihilo:see
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:clay_ball>, 10);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:diamond>, 100);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:coal>, 10);
-mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <exnihilo:exnihilo.iron_broken>, 25); 
-mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <exnihilo:exnihilo.tin_broken>, 25); 
-mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <exnihilo:exnihilo.aluminium_broken>, 25); 
+mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <exnihilo:exnihilo.iron_broken>, 10); 
+mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <exnihilo:exnihilo.tin_broken>, 10); 
+mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <exnihilo:exnihilo.aluminium_broken>, 10); 
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:dye:4>, 50);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <GalacticraftCore:tile.fallenMeteor>, 100);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:snowball>, 50);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <GalacticraftCore:item.basicItem:2>,30);
+mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:flint,2);
 
 
 
@@ -37,7 +38,7 @@ mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <exnihilo:spo
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:glowstone_dust>, 3);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:dye:15>, 2);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:bone>, 9);
-mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:flint>, 5);
+mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:flint>, 3);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:redstone>, 3);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:gunpowder>, 60);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.mars:9>, <GalacticraftMars:tile.mars:2>, 100);
