@@ -29,6 +29,8 @@
 //#MARKER ADD SHAPED
 recipes.remove(<NuclearCraft:parts:2>);
 recipes.remove(<exastris:sieve_automatic>);
+recipes.remove(<exastris:hammer_automatic>);
+recipes.addShaped(<exastris:hammer_automatic>, [[<ore:ingotIron>, <minecraft:iron_ingot>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:anvil>, <minecraft:iron_ingot>], [<ore:ingotIron>, <exnihilo:hammer_diamond>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<exastris:sieve_automatic>, [[<ore:ingotIron>, <exnihilo:sifting_table>, <minecraft:iron_ingot>], [<ore:ingotIron>, <ore:dustGlowstone>, <ore:ingotIron>], [<ore:nuggetIron>, null, <ore:nuggetIron>]]);
 recipes.addShaped(<NuclearCraft:parts:2>, [[<ore:flint>, <ore:flint>, <ore:flint>], [<ore:ingotDesh>, <ore:ingotDesh>, <ore:ingotDesh>], [<minecraft:stick>, <ore:stickWood>, <ore:stickWood>]]);
 recipes.remove(<superMassiveTech:starHarvester>);
