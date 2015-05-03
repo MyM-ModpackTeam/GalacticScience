@@ -24,10 +24,13 @@ mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:cl
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:diamond>, 100);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:coal>, 10);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <exnihilo:exnihilo.iron_broken>, 30); 
+mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <exnihilo:exnihilo.tin_broken>, 30); 
+mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <exnihilo:exnihilo.aluminium_broken>, 30); 
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:dye:4>, 50);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <GalacticraftCore:tile.fallenMeteor>, 100);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:snowball>, 50);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <GalacticraftCore:item.basicItem:2>,30);
+
 
 
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <exnihilo:spores>, 100);
