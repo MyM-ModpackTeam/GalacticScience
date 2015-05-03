@@ -3,7 +3,7 @@ mods.exnihilo.Crucible.addRecipe(<minecraft:log>, <liquid:oil> * 10);
 mods.exnihilo.Crucible.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <liquid:lava> * 75);
 mods.exnihilo.Crucible.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <liquid:lava> * 75);
 mods.exnihilo.Crucible.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <liquid:lava> * 75);
-mods.exnihilo.Crucible.addRecipe(<minecraft:ice>, <liquid:water> * 200);
+mods.exnihilo.Crucible.addRecipe(<minecraft:snow>, <liquid:water> * 200);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <exnihilo:stone>, 1);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <exnihilo:seed_oak>, 20);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <minecraft:wheat_seeds>, 10);
@@ -26,7 +26,7 @@ mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:co
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <exnihilo:exnihilo.iron_broken>, 30); 
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:dye:4>, 50);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <GalacticraftCore:tile.fallenMeteor>, 100);
-mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:ice>, 50);
+mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:snowball>, 50);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <GalacticraftCore:item.basicItem:2>,30);
 
 
