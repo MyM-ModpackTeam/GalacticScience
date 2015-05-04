@@ -30,10 +30,7 @@ mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:dy
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <GalacticraftCore:tile.fallenMeteor>, 100);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:snowball>, 50);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <GalacticraftCore:item.basicItem:2>,30);
-mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:flint,2);
-
-
-
+mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:flint>,2);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <exnihilo:spores>, 100);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:glowstone_dust>, 3);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:dye:15>, 2);
