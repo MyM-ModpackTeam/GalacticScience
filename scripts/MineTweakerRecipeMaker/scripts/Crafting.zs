@@ -27,7 +27,12 @@
 
 // ================================================================================
 //#MARKER ADD SHAPED
-recipes.addShaped(<progressiveautomation:CoalPellet> * 16, [[<ore:coal>, <ore:coal>]]);
+recipes.remove(<SolarFlux:solar6>);
+recipes.remove(<SolarFlux:solar5>);
+recipes.remove(<SolarFlux:solar4>);
+recipes.addShaped(<SolarFlux:solar6>, [[<superMassiveTech:star>, <superMassiveTech:star>, <superMassiveTech:star>], [<superMassiveTech:star>, <SolarFlux:solar5>, <superMassiveTech:star>], [<superMassiveTech:star>, <superMassiveTech:star>, <superMassiveTech:star>]]);
+recipes.addShaped(<SolarFlux:solar5>, [[<minechem:minechemPolytool>, <minechem:minechemPolytool>, <minechem:minechemPolytool>], [<minechem:minechemPolytool>, <SolarFlux:solar4>, <minechem:minechemPolytool>], [<minechem:minechemPolytool>, <minechem:minechemPolytool>, <minechem:minechemPolytool>]]);
+recipes.addShaped(<SolarFlux:solar4>, [[<minecraft:nether_star>, <minecraft:nether_star>, <minecraft:nether_star>], [<minecraft:nether_star>, <SolarFlux:solar3>, <minecraft:nether_star>], [<minecraft:nether_star>, <minecraft:nether_star>, <minecraft:nether_star>]]);
 recipes.remove(<NuclearCraft:parts:2>);
 recipes.remove(<exastris:sieve_automatic>);
 recipes.remove(<exastris:hammer_automatic>);
@@ -49,6 +54,6 @@ recipes.addShaped(<EnderIO:itemMachinePart>, [[<minecraft:iron_bars>, <ore:ingot
 recipes.addShaped(<GalacticraftCore:tile.moonBlock:4>, [[<ore:element_O>, <minechem:minechemElement:14>], [<ore:element_O>, <ore:element_Si>]]);
 recipes.addShaped(<GalacticraftCore:tile.moonBlock:3>, [[<ore:element_O>, <minechem:minechemElement:8>, <ore:element_O>], [<ore:element_O>, <ore:element_Si>, <ore:element_O>], [<minechem:minechemElement:8>, <ore:element_O>, <minechem:minechemElement:8>]]);
 recipes.addShaped(<GalacticraftCore:tile.moonBlock:5>, [[<ore:element_O>, <ore:element_O>], [<ore:element_O>, <ore:element_Si>]]);
-recipes.remove(<progressiveautomation:CoalPellet>);
+
 
 
