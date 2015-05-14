@@ -27,6 +27,9 @@
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<exnihilo:exnihilo.nether_copper_broken> * 4, [[<GalacticraftCore:tile.fallenMeteor>, <GalacticraftCore:tile.fallenMeteor>]]);
+recipes.addShaped(<exnihilo:exnihilo.iron_broken> * 4, [[<GalacticraftCore:tile.fallenMeteor>]]);
+recipes.remove(<chisel:chisel.marble>);
 recipes.remove(<SolarFlux:solar6>);
 recipes.remove(<SolarFlux:solar5>);
 recipes.remove(<SolarFlux:solar4>);
