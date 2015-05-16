@@ -27,6 +27,8 @@
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.remove(<dimstorage:item_dimwall>);
+recipes.addShaped(<dimstorage:item_dimwall>, [[<ore:ingotIron>, <ore:dustGlowstone>, <ore:ingotIron>], [<ore:dustGlowstone>, <minecraft:ender_pearl>, <ore:dustGlowstone>], [<ore:ingotIron>, <ore:dustGlowstone>, <ore:ingotIron>]]);
 recipes.addShaped(<exnihilo:exnihilo.nether_copper_broken> * 4, [[<GalacticraftCore:tile.fallenMeteor>, <GalacticraftCore:tile.fallenMeteor>]]);
 recipes.addShaped(<exnihilo:exnihilo.iron_broken> * 4, [[<GalacticraftCore:tile.fallenMeteor>]]);
 recipes.remove(<chisel:chisel.marble>);
