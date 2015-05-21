@@ -11,7 +11,7 @@ mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <minecraft:bl
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <exnihilo:stone>, 1);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <exnihilo:seed_sugar_cane>, 100);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <exnihilo:seed_grass>, 100);
-mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <exnihilo:seed_cactus>, 100)
+mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <exnihilo:seed_cactus>, 100);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:clay_ball>, 10);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:diamond>, 100);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:coal>, 10);
