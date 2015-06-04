@@ -27,6 +27,8 @@
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.remove(<modularsystems:blockStorageCore>);
+recipes.addShaped(<modularsystems:blockStorageCore>, [[<ore:plankWood>, <ore:plankWood>, <minecraft:planks>], [<minecraft:planks>, <ore:ingotDesh>, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <minecraft:planks>]]);
 
 recipes.remove(<rftools:dimensionBuilderBlock>);
 recipes.remove(<dimstorage:item_dimwall>);
