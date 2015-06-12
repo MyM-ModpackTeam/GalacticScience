@@ -12,12 +12,32 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<SGCraft:naquadahIngot>);
+recipes.remove(<SGCraft:sgChevronUpgrade>);
+recipes.remove(<SGCraft:stargateController>);
+recipes.remove(<SGCraft:sgControllerCrystal>);
+recipes.remove(<SGCraft:stargateBase>);
+recipes.remove(<SGCraft:stargateRing:1>);
+recipes.remove(<SGCraft:stargateRing>);
+recipes.remove(<SGCraft:stargateRing>);
+recipes.remove(<SGCraft:stargateRing>);
+recipes.remove(<SGCraft:stargateRing>);
+recipes.remove(<SGCraft:stargateRing>);
+recipes.remove(<SGCraft:stargateRing>);
+recipes.remove(<SGCraft:stargateRing>);
+recipes.remove(<SGCraft:stargateRing>);
+recipes.remove(<SGCraft:stargateRing>);
+recipes.remove(<SGCraft:stargateRing>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<SGCraft:naquadahIngot> * 2, [[null, <ore:naquadah>, null], [<ore:naquadah>, <ore:blockIron>, <ore:naquadah>], [null, <ore:naquadah>, null]]);
+recipes.removeShaped(<SGCraft:stargateController>, [[<minecraft:stone_button>, <minecraft:stone_button>, null], [<EnderIO:blockReinforcedObsidian>, <SGCraft:sgControllerCrystal>, <EnderIO:blockReinforcedObsidian>], [<EnderIO:blockReinforcedObsidian>, <EnderIO:blockReinforcedObsidian>, <EnderIO:blockReinforcedObsidian>]]);
+recipes.removeShaped(<SGCraft:sgCoreCrystal>, [[<EnderIO:itemMaterial:5>, <minecraft:nether_star>, <EnderIO:itemMaterial:5>], [<minecraft:nether_star>, <SpacePluto:pluto_block:7>, <minecraft:nether_star>], [<EnderIO:itemMaterial:5>, <minecraft:nether_star>, <EnderIO:itemMaterial:5>]]);
+recipes.removeShaped(<SGCraft:sgCoreCrystal>, [[<EnderIO:itemMaterial:5>, <minecraft:nether_star>, <EnderIO:itemMaterial:5>], [<minecraft:nether_star>, <SpacePluto:pluto_block:7>, <minecraft:nether_star>], [<EnderIO:itemMaterial:5>, <minecraft:nether_star>, <EnderIO:itemMaterial:5>]]);
 
 // ================================================================================
 //#MARKER ADD
@@ -27,6 +47,19 @@
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<SGCraft:naquadahIngot> * 2, [[null, <ore:naquadah>, null], [<ore:naquadah>, <ore:blockIron>, <ore:naquadah>], [null, <ore:naquadah>, null]]);
+recipes.addShaped(<SGCraft:naquadah>, [[<minecraft:coal_block>, <minecraft:coal_block>, <minecraft:coal_block>], [<ore:blockCoal>, <ore:VenusCrystal>, <minecraft:coal_block>], [<ore:blockCoal>, <ore:blockCoal>, <minecraft:coal_block>]]);
+recipes.addShaped(<SGCraft:sgChevronUpgrade>, [[<SGCraft:stargateRing:1>, <minecraft:nether_star>, <SGCraft:stargateRing:1>], [<minecraft:nether_star>, <SGCraft:sgCoreCrystal>, <minecraft:nether_star>], [<SGCraft:stargateRing:1>, <minecraft:nether_star>, <SGCraft:stargateRing:1>]]);
+recipes.addShaped(<SGCraft:rfPowerUnit>, [[<SGCraft:stargateRing>, <EnderIO:itemPowerConduit:2>, <SGCraft:stargateRing>], [<SpacePluto:null:6>, <EnderIO:blockCapBank:3>, <SpacePluto:null:6>], [<SGCraft:stargateRing>, <SpacePluto:null:6>, <SGCraft:stargateRing>]]);
+recipes.addShaped(<SGCraft:stargateController>, [[<minecraft:stone_button>, <minecraft:stone_button>, <minecraft:stone_button>], [<EnderIO:blockReinforcedObsidian>, <SGCraft:sgControllerCrystal>, <EnderIO:blockReinforcedObsidian>], [<EnderIO:blockReinforcedObsidian>, <EnderIO:blockReinforcedObsidian>, <EnderIO:blockReinforcedObsidian>]]);
+recipes.addShaped(<SGCraft:stargateController>, [[<minecraft:stone_button>, <minecraft:stone_button>, null], [<EnderIO:blockReinforcedObsidian>, <SGCraft:sgControllerCrystal>, <EnderIO:blockReinforcedObsidian>], [<EnderIO:blockReinforcedObsidian>, <EnderIO:blockReinforcedObsidian>, <EnderIO:blockReinforcedObsidian>]]);
+recipes.addShaped(<SGCraft:sgControllerCrystal>, [[<EnderIO:itemMaterial:5>, <minecraft:nether_star>, <EnderIO:itemMaterial:5>], [<minecraft:nether_star>, <minecraft:dye:14>, <minecraft:nether_star>], [<EnderIO:itemMaterial:5>, <minecraft:nether_star>, <EnderIO:itemMaterial:5>]]);
+recipes.addShaped(<SGCraft:sgCoreCrystal>, [[<EnderIO:itemMaterial:5>, <minecraft:nether_star>, <EnderIO:itemMaterial:5>], [<minecraft:nether_star>, <SpacePluto:pluto_block:7>, <minecraft:nether_star>], [<EnderIO:itemMaterial:5>, <minecraft:nether_star>, <EnderIO:itemMaterial:5>]]);
+recipes.addShaped(<SGCraft:sgCoreCrystal>, [[<EnderIO:itemMaterial:5>, <minecraft:nether_star>, <EnderIO:itemMaterial:5>], [<minecraft:nether_star>, <SpacePluto:pluto_block:7>, <minecraft:nether_star>], [<EnderIO:itemMaterial:5>, <minecraft:nether_star>, <EnderIO:itemMaterial:5>]]);
+recipes.addShaped(<SGCraft:stargateBase>, [[<SGCraft:stargateRing>, <SpacePluto:null:6>, <SGCraft:stargateRing>], [<SpacePluto:null:6>, <SGCraft:sgCoreCrystal>, <SpacePluto:null:6>], [<SGCraft:stargateRing>, <GalacticraftMars:tile.telepadShort>, <SGCraft:stargateRing>]]);
+recipes.addShaped(<SGCraft:stargateBase>, [[<SGCraft:stargateRing>, <SpacePluto:null:6>, <SGCraft:stargateRing>], [<SpacePluto:null:6>, <GalacticraftMars:tile.telepadShort>, <SpacePluto:null:6>], [<SGCraft:stargateRing>, <SpacePluto:null:6>, <SGCraft:stargateRing>]]);
+recipes.addShaped(<SGCraft:stargateRing:1>, [[<SGCraft:stargateRing>, <minecraft:ender_pearl>, <SGCraft:stargateRing>], [<minecraft:ender_pearl>, <ore:dyeOrange>, <minecraft:ender_pearl>], [<SGCraft:stargateRing>, <minecraft:ender_pearl>, <SGCraft:stargateRing>]]);
+recipes.addShaped(<SGCraft:stargateRing>, [[<SpacePluto:null:6>, <SpacePluto:null:6>, <SpacePluto:null:6>], [<SGCraft:naquadahBlock>, <SGCraft:naquadahBlock>, <SGCraft:naquadahBlock>], [<SpacePluto:null:6>, <SpacePluto:null:6>, <SpacePluto:null:6>]]);
 recipes.remove(<modularsystems:blockStorageCore>);
 recipes.addShaped(<modularsystems:blockStorageCore>, [[<ore:plankWood>, <ore:plankWood>, <minecraft:planks>], [<minecraft:planks>, <ore:ingotDesh>, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <minecraft:planks>]]);
 
