@@ -97,5 +97,6 @@ recipes.addShaped(<GalacticraftCore:tile.moonBlock:4>, [[<ore:element_O>, <minec
 recipes.addShaped(<GalacticraftCore:tile.moonBlock:3>, [[<ore:element_O>, <minechem:minechemElement:8>, <ore:element_O>], [<ore:element_O>, <ore:element_Si>, <ore:element_O>], [<minechem:minechemElement:8>, <ore:element_O>, <minechem:minechemElement:8>]]);
 recipes.addShaped(<GalacticraftCore:tile.moonBlock:5>, [[<ore:element_O>, <ore:element_O>], [<ore:element_O>, <ore:element_Si>]]);
 
+recipes.addShaped(<ExtraUtilities:unstableingot>, [[<ore:nuggetUnstable>, <ore:nuggetUnstable>, <ore:nuggetUnstable>], [<ore:nuggetUnstable>, <ore:nuggetUnstable>, <ore:nuggetUnstable>], [<ore:nuggetUnstable>, <ore:nuggetUnstable>, <ore:nuggetUnstable>]]);
 
 
