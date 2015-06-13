@@ -1,4 +1,5 @@
 mods.exnihilo.Crucible.addHeatSource(<minecraft:coal_block>, 0.1);
+mods.exnihilo.Crucible.addHeatSource(<AwesomeSauceComponents:blockPureAwesomeite>, 0.8);
 mods.exnihilo.Crucible.addRecipe(<minecraft:log>, <liquid:oil> * 50);
 mods.exnihilo.Crucible.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <liquid:lava> * 100);
 mods.exnihilo.Crucible.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <liquid:lava> * 100);

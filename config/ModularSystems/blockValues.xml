@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+	<!-- Blocks /!-->
+	<block name="minecraft:redstone_block">
+        <speed>
+            <xOffset>-1</xOffset>
+            <yOffset>-1</yOffset>
+            <xCoefficient>0.2</xCoefficient>
+            <equation>parabolic</equation>
+            <perBlockCap>3</perBlockCap>
+        </speed>
+        <efficiency>
+            <equation>parabolic</equation>
+            <xOffset>-1</xOffset>
+            <yOffset>-1</yOffset>
+            <xCoefficient>-0.2</xCoefficient>
+            <yCoefficient>-1</yCoefficient>
+            <perBlockCap>1</perBlockCap>
+            <perBlockFloor>-2</perBlockFloor>
+        </efficiency>
+	</block>
+
+    <block name="minecraft:quartz_block">
+        <speed>
+            <xOffset>-1</xOffset>
+            <yOffset>-1</yOffset>
+            <xCoefficient>0.5</xCoefficient>
+            <equation>parabolic</equation>
+            <perBlockCap>5</perBlockCap>
+        </speed>
+        <efficiency>
+            <equation>parabolic</equation>
+            <xOffset>-2</xOffset>
+            <yOffset>-1</yOffset>
+            <xCoefficient>-0.2</xCoefficient>
+            <yCoefficient>-1</yCoefficient>
+            <perBlockCap>1</perBlockCap>
+            <perBlockFloor>-2</perBlockFloor>
+        </efficiency>
+    </block>
+	
+	<block name="minecraft:gold_block">
+        <efficiency>
+            <equation>log</equation>
+            <yCoefficient>0.4</yCoefficient>
+        </efficiency>
+	</block>
+	
+	<block name="minecraft:diamond_block">
+        <speed>
+            <equation>parabolic</equation>
+            <yCoefficient>0.2</yCoefficient>
+            <xOffset>1</xOffset>
+            <perBlockCap>5</perBlockCap>
+        </speed>
+        <efficiency>
+            <equation>log</equation>
+            <yCoefficient>0.2</yCoefficient>
+        </efficiency>
+	</block>
+	
+	<block name="minecraft:lapis_block">
+        <speed>
+            <equation>parabolic</equation>
+            <yCoefficient>0.02</yCoefficient>
+        </speed>
+        <efficiency>
+            <equation>parabolic</equation>
+            <yCoefficient>0.01</yCoefficient>
+        </efficiency>
+	</block>
+	
+	<block name="minecraft:brick_block">
+        <smelting>
+            <equation>linear</equation>
+            <yCoefficient>0.5</yCoefficient>
+        </smelting>
+        <speed>
+            <equation>log</equation>
+            <perBlockFloor>-1</perBlockFloor>
+            <perBlockCap>1</perBlockCap>
+            <yCoefficient>-0.25</yCoefficient>
+            <yOffset>-1</yOffset>
+            <xOffset>1</xOffset>
+        </speed>
+        <efficiency>
+            <yCoefficient>-2</yCoefficient>
+            <yOffset>2</yOffset>
+            <perBlockFloor>-2</perBlockFloor>
+        </efficiency>
+	</block>
+
+    <block name="minecraft:nether_brick">
+        <smelting>
+            <equation>linear</equation>
+            <yCoefficient>0.6</yCoefficient>
+        </smelting>
+        <speed>
+            <equation>log</equation>
+            <perBlockFloor>-0.75</perBlockFloor>
+            <perBlockCap>1</perBlockCap>
+            <yCoefficient>-0.25</yCoefficient>
+            <yOffset>-1</yOffset>
+            <xOffset>1</xOffset>
+        </speed>
+        <efficiency>
+            <yCoefficient>-1.5</yCoefficient>
+            <yOffset>3</yOffset>
+            <perBlockFloor>-1.5</perBlockFloor>
+        </efficiency>
+    </block>
+
+    <block name="minecraft:netherrack">
+        <smelting>
+            <equation>linear</equation>
+            <yCoefficient>0.25</yCoefficient>
+        </smelting>
+        <speed>
+            <equation>poarabolic</equation>
+            <perBlockCap>0</perBlockCap>
+            <yCoefficient>-0.5</yCoefficient>
+            <yOffset>-1</yOffset>
+        </speed>
+        <efficiency>
+            <yCoefficient>-2</yCoefficient>
+            <yOffset>2</yOffset>
+            <perBlockFloor>-2</perBlockFloor>
+        </efficiency>
+    </block>
+	
+	<block name="minecraft:soul_sand">
+        <efficiency value="0.1"/>
+        <speed value="0"/>
+	</block>
+	
+	<block name="minecraft:coal_block">
+        <speed value="0.05"/>
+        <efficiency value="0.05"/>
+	</block>
+
+    <block unlocalizedName="minecraft:sandstone">
+        <speed value="0.3"/>
+        <efficiency value="0.1"/>
+    </block>
+
+    <material name="rock">
+        <speed>
+            <yCoefficient>0.1</yCoefficient>
+            <equation>log</equation>
+        </speed>
+        <efficiency>
+            <yCoefficient>0.1</yCoefficient>
+            <equation>log</equation>
+        </efficiency>
+    </material>
+	
+	<material name="iron">
+        <speed>
+            <equation>constant</equation>
+            <yOffset>2</yOffset>
+        </speed>
+        <efficiency>
+            <equation>log</equation>
+            <yCoefficient>1.0</yCoefficient>
+        </efficiency>
+	</material>
+	
+</root>
