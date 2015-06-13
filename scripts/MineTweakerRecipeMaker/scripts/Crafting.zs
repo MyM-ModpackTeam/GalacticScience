@@ -28,6 +28,7 @@ recipes.remove(<SGCraft:stargateRing>);
 recipes.remove(<SGCraft:stargateRing>);
 recipes.remove(<SGCraft:stargateRing>);
 recipes.remove(<SGCraft:stargateRing>);
+recipes.remove(<minecraft:fire_charge>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
