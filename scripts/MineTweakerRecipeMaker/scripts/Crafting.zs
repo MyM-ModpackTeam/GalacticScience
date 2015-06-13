@@ -63,7 +63,6 @@ recipes.addShaped(<SGCraft:stargateRing:1>, [[<SGCraft:stargateRing>, <minecraft
 recipes.addShaped(<SGCraft:stargateRing>, [[<SpacePluto:null:6>, <SpacePluto:null:6>, <SpacePluto:null:6>], [<SGCraft:naquadahBlock>, <SGCraft:naquadahBlock>, <SGCraft:naquadahBlock>], [<SpacePluto:null:6>, <SpacePluto:null:6>, <SpacePluto:null:6>]]);
 recipes.remove(<modularsystems:blockStorageCore>);
 recipes.addShaped(<modularsystems:blockStorageCore>, [[<ore:plankWood>, <ore:plankWood>, <minecraft:planks>], [<minecraft:planks>, <ore:ingotDesh>, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <minecraft:planks>]]);
-recipes.remove(<modularsystems:smelteryCore>);
 recipes.remove(<rftools:dimensionBuilderBlock>);
 recipes.remove(<dimstorage:item_dimwall>);
 recipes.addShaped(<dimstorage:item_dimwall>, [[<ore:ingotIron>, <ore:dustGlowstone>, <ore:ingotIron>], [<ore:dustGlowstone>, <minecraft:ender_pearl>, <ore:dustGlowstone>], [<ore:ingotIron>, <ore:dustGlowstone>, <ore:ingotIron>]]);
