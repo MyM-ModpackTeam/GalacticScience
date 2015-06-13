@@ -52,7 +52,7 @@ stargate {
     I:explosionRadius=10
     B:explosionSmoke=true
     I:gateOpeningsPerFuelItem=24
-    D:interDimensionMultiplier=2.0
+    D:interDimensionMultiplier=1.5
     D:maxEnergyBuffer=1000.0
     I:minutesOpenPerFuelItem=80
     B:oneWayTravel=true
