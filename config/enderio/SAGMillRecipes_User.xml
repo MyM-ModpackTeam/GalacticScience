@@ -37,7 +37,15 @@ found in the core file.
         <itemStack oreDictionary="dustObsidian" number="1" />
       </output>
     </recipe>
-    
+        <recipe name="Wool" energyCost="1200">
+      <input>
+        <itemStack modID="minecraft" itemName="wool" itemMeta="*" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="string" number="1" />
+        <itemStack modID="minecraft" itemName="string" number="1" chance="0.05" />
+      </output>
+    </recipe>
 </recipeGroup> 
 
 
