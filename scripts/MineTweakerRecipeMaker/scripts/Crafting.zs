@@ -29,7 +29,6 @@ recipes.remove(<SGCraft:stargateRing>);
 recipes.remove(<SGCraft:stargateRing>);
 recipes.remove(<SGCraft:stargateRing>);
 recipes.remove(<minecraft:fire_charge>);
-recipes.remove(<ExtraUtilities:dark_portal:2>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
