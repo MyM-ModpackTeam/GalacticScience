@@ -1,0 +1,2 @@
+recipes.remove(<RandomThings:imbuingStation>);
+recipes.addShaped(<RandomThings:imbuingStation>, [[<ore:ingotImpureAwesomeite>, <minecraft:cauldron>, <ore:ingotImpureAwesomeite>], [<AwesomeSauceComponents:ingotImpureAwesomeite>, <ore:ingotImpureAwesomeite>, <AwesomeSauceComponents:ingotImpureAwesomeite>], [<ore:ingotImpureAwesomeite>, <ore:blockEmerald>, <ore:ingotImpureAwesomeite>]]);
