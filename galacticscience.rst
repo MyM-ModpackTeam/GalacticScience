@@ -36,3 +36,5 @@ Galactic Science
 - `Super Massive Techn <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2105190-super-massive-tech-harness-the-power-of-the-stars>`_, Tterrag
 - `WAILA <http://minecraft.curseforge.com/members/ProfMobius/projects>`_, ProfMobius
 - `HQM <http://minecraft.curseforge.com/mc-mods/77027-hardcore-questing-mode>`_, 
+- `NoTimeFix <https://github.com/CannibalVox/NoTimeFix/>`_, CannibalVox
+- `ResourceLoader <http://minecraft.curseforge.com/mc-mods/226447-resource-loader>`_. Lumien
