@@ -27,13 +27,15 @@ ore dictionary.
 
 <AlloySmelterRecipes>
 	<recipeGroup name="EnderIO">
-		<recipe name="ingotNaquadahAlloy" energyCost="20000000">
+		<recipe name="ingotNaquadahAlloy" energyCost="7000000">
 		<input>
-			<itemStack oreDictionary="naquadah" number="4"/> 
+			<itemStack oreDictionary="naquadah" number="2"/> 
+		</input>      
+		<input>
 			<itemStack oreDictionary="blockiron" number="1"/> 
 		</input>      
 		<output>
-			<itemStack oreDictionary="ingotNaquadahAlloy" number="2" exp="0.5"/>
+			<itemStack oreDictionary="ingotNaquadahAlloy" number="1" exp="0.5"/>
 			<itemStack oreDictionary="ingotNaquadahAlloy" number="1" exp="0.5" chance="0.1"/>
 		</output>
 		</recipe>
