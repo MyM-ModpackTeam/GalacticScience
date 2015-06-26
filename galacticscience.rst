@@ -38,3 +38,8 @@ Galactic Science
 - `HQM <http://minecraft.curseforge.com/mc-mods/77027-hardcore-questing-mode>`_, 
 - `NoTimeFix <https://github.com/CannibalVox/NoTimeFix/>`_, CannibalVox
 - `ResourceLoader <http://minecraft.curseforge.com/mc-mods/226447-resource-loader>`_. Lumien
+- `SGCraft <http://www.cosc.canterbury.ac.nz/greg.ewing/minecraft/mods/SGCraft/>`_, Greg
+- `Netherless <http://minecraft.curseforge.com/mc-mods/226117-netherless>`_, hilburn
+- `The Dalek Mod <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286606-the-dalek-mod-updated-10-05-15>`_, 1WTC
+- `Blood Magic <https://github.com/WayofTime/BloodMagic>`_, WayofTime
+- `Tardis Mod <http://www.curse.com/mc-mods/minecraft/230170-tardis-mod>`_, ShaneDarkholme
