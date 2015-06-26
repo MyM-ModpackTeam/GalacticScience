@@ -17,5 +17,14 @@ XCOPY "src/scripts" "build/client/scripts" /s /i /EXCLUDE:buildignore.txt
 XCOPY "src/_CLIENT" "build/client" /s /i
 XCOPY "src/template" "build/client/template" /s /i
 
+:: curse
+XCOPY "src/config" "build/curse/override/config" /s /i /EXCLUDE:buildignore.txt
+XCOPY "src/mods" "build/curse/override/mods" /s /i /EXCLUDE:buildignore.txt
+XCOPY "src/mods/_CLIENT" "build/curse/override/mods" /s /i
+XCOPY "src/scripts" "build/curse/override/scripts" /s /i /EXCLUDE:buildignore.txt
+XCOPY "src/_CLIENT" "build/curse/override" /s /i
+XCOPY "src/template" "build/curse/override/template" /s /i
+MKDIR "build/curse/libraries"
+
 
 pause
