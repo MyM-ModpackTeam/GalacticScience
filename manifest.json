@@ -1,0 +1,27 @@
+{  
+   "manifestType":"minecraftModpack",
+   "manifestVersion":1,
+   "name":"Galactic Science",
+   "version":"1.2",
+   "author":"ChetwyndKid and Caithleen",
+   "description":"Galactic Science is a space-themed modpack with many rarely-seen mods to explore. This lightweight pack is suitable for both solo and multiplayer / team play. Mod progression follows a tiered based quest system which increases the lifespan of the modpack. With mods such as Galacticraft, Ex Nihilo, Minechem and many more, there’s sure to be something for everyone to do while struggling to survive and thrive in the depths of space.
+Story:
+You are forced to take your rocket and fly to the moon to escape the impending nuclear winter. Taking over your fathers isolated moon base you settle down and do your best to survive, but with long nights, evolved mobs and desolate landscapes you’re beginning to think you’ve left one bad situation for another. Can you use the few resources at your disposal to find ways to explore the vast reaches of space?",
+   "files":[  
+      {  
+         "projectID":,
+         "fileID":
+      },
+   ],
+   "overrides":"overrides",
+   "minecraft":{  
+      "version":"1.7.10",
+      "libraries":"libraries",
+      "modLoaders":[  
+         {  
+            "id":"forge-10.13.3.1408",
+            "primary":true
+         }
+      ]
+   }
+}
