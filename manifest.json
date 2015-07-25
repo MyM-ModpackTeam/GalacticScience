@@ -117,10 +117,6 @@ You are forced to take your rocket and fly to the moon to escape the impending n
          "fileID":2230908
       },
 	  {  
-         "projectID":, #ItemPhysics Lite
-         "fileID":
-      },
-	  {  
          "projectID":225605, #LunatriusCore
          "fileID":2225146
       },
@@ -219,6 +215,14 @@ You are forced to take your rocket and fly to the moon to escape the impending n
 	  {  
          "projectID":73488, #Walia
          "fileID":2230518
+      },
+	  {  
+         "projectID":232784, #Bookshelf
+         "fileID":2248603
+      },
+	  {  
+         "projectID":74924, #Mantle
+         "fileID":2215235
       },
    ],
    "overrides":"overrides",
