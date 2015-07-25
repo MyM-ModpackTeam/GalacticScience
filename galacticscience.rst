@@ -7,7 +7,7 @@ Galactic Science
 - `Armourer's Workshop <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2309193-wip-alpha-armourers-workshop-weapon-armour-skins>`_, RiskyKen
 - `Carpenter's Blocks <http://www.carpentersblocks.com/>`_, 
 - `ChickenChunks <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods>`_, ChickenBones
-- `Chisel <http://minecraft.curseforge.com/mc-mods/225236-chisel-2>`_, AUTOMATIC_MAIDEN
+- `Chisel 2 <http://minecraft.curseforge.com/mc-mods/225236-chisel-2>`_, TheCricket26
 - `DimStorage <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2104639-dimstorage>`_, Gaarnik
 - `EnderIO <http://enderio.com/>`_, CrazyPants
 - `Ex Astris <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2210492-ex-astris-1-12-project-closed>`_, LoveHoly
