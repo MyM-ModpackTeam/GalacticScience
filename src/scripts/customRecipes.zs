@@ -1,3 +1,6 @@
+// ================================================================================
+// Ex Nihilo
+
 mods.exnihilo.Crucible.addHeatSource(<minecraft:coal_block>, 0.1);
 mods.exnihilo.Crucible.addHeatSource(<AwesomeSauceComponents:blockPureAwesomeite>, 0.8);
 mods.exnihilo.Crucible.addRecipe(<minecraft:log>, <liquid:oil> * 50);
@@ -5,8 +8,6 @@ mods.exnihilo.Crucible.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <liquid:la
 mods.exnihilo.Crucible.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <liquid:lava> * 100);
 mods.exnihilo.Crucible.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <liquid:lava> * 100);
 mods.exnihilo.Crucible.addRecipe(<minecraft:ice>, <liquid:water> * 200);
-
-
 
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <minecraft:blaze_rod>, 80);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <exnihilo:stone>, 1);
@@ -18,7 +19,6 @@ mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:di
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:coal>, 10);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <exnihilo:exnihilo.iron_broken>, 15); 
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <exnihilo:exnihilo.aluminum_broken>, 15); 
-
 
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <exnihilo:exnihilo.copper_broken>, 15); 
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <minecraft:dye:4>, 50);
@@ -76,7 +76,6 @@ mods.exnihilo.Sieve.addRecipe(<SpacePluto:pluto_block:2>, <NuclearCraft:blockOre
 mods.exnihilo.Sieve.addRecipe(<SpacePluto:pluto_block:1>, <NuclearCraft:blockOre:3>, 60);
 mods.exnihilo.Sieve.addRecipe(<SpacePluto:pluto_block>, <NuclearCraft:blockOre:3>, 60);
 
-
 mods.exnihilo.Sieve.addRecipe(<SpaceMercury:mercury_block:2>, <NuclearCraft:material:19>, 60);
 mods.exnihilo.Sieve.addRecipe(<SpaceMercury:mercury_block:1>, <NuclearCraft:material:19>, 60);
 mods.exnihilo.Sieve.addRecipe(<SpaceMercury:mercury_block>, <NuclearCraft:material:19>, 60);
@@ -94,6 +93,51 @@ mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <minecraft:me
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <minecraft:pumpkin_seeds>, 75);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <minecraft:carrot>, 75);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <minecraft:potato>, 75);
-mods.exnihilo.Hammer.removeRecipe(<minecraft:cobblestone>);
-mods.exnihilo.Hammer.removeRecipe(<minecraft:sand>);
-mods.exnihilo.Hammer.removeRecipe(<minecraft:gravel>);
+
+recipes.addShapeless(<exnihilo:exnihilo.nether_copper_broken> * 4, 
+	[<GalacticraftCore:tile.fallenMeteor>, <GalacticraftCore:tile.fallenMeteor>]);
+
+recipes.addShapeless(<exnihilo:exnihilo.iron_broken> * 4, 
+	[<GalacticraftCore:tile.fallenMeteor>]);
+
+// ================================================================================
+// SG Craft
+
+recipes.addShaped(<SGCraft:naquadah>, 
+	[[<minecraft:coal_block>, <minecraft:coal_block>, <minecraft:coal_block>], 
+	[<ore:blockCoal>, <ore:VenusCrystal>, <minecraft:coal_block>], 
+	[<ore:blockCoal>, <ore:blockCoal>, <minecraft:coal_block>]]);
+
+recipes.addShaped(<SGCraft:rfPowerUnit>, 
+	[[<SGCraft:stargateRing>, <EnderIO:itemPowerConduit:2>, <SGCraft:stargateRing>], 
+	[<SpacePluto:null:6>, <EnderIO:blockCapBank:3>, <SpacePluto:null:6>], 
+	[<SGCraft:stargateRing>, <SpacePluto:null:6>, <SGCraft:stargateRing>]]);
+
+// ================================================================================
+// ExtraUtilties
+
+recipes.addShaped(<ExtraUtilities:cursedearthside>, 
+	[[<ore:dirt>, <minecraft:dirt>, <ore:dirt>], 
+	[<ore:dirt>, <minecraft:nether_star>, <ore:dirt>], 
+	[<ore:dirt>, <ore:dirt>, <ore:dirt>]]);
+
+recipes.addShaped(<ExtraUtilities:unstableingot>, 
+	[[<ore:nuggetUnstable>, <ore:nuggetUnstable>, <ore:nuggetUnstable>], 
+	[<ore:nuggetUnstable>, <ore:nuggetUnstable>, <ore:nuggetUnstable>], 
+	[<ore:nuggetUnstable>, <ore:nuggetUnstable>, <ore:nuggetUnstable>]]);
+
+// ================================================================================
+// Galacticraft
+
+recipes.addShaped(<GalacticraftCore:tile.moonBlock:5>, 
+	[[<ore:element_O>, <ore:element_O>], 
+	[<ore:element_O>, <ore:element_Si>]]);
+
+recipes.addShaped(<GalacticraftCore:tile.moonBlock:4>, 
+	[[<ore:element_O>, <minechem:minechemElement:14>], 
+	[<ore:element_O>, <ore:element_Si>]]);
+
+recipes.addShaped(<GalacticraftCore:tile.moonBlock:3>, 
+	[[<ore:element_O>, <minechem:minechemElement:8>, <ore:element_O>], 
+	[<ore:element_O>, <ore:element_Si>, <ore:element_O>], 
+	[<minechem:minechemElement:8>, <ore:element_O>, <minechem:minechemElement:8>]]);
