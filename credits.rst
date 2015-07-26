@@ -23,7 +23,7 @@ Galactic Science
 - `NEI Addons <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289113-nei-addons-v1-12-2-now-supports-botany-flower>`_, bdew
 - `NotEnoughItems <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods>`_, Chickenbones
 - `Nuclearcraft <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2187231-nuclearcraft-mod-rf-reactors-nuclear-power>`_, TLJGames
-- OpenAutomation` <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2093100-sandras-mods-openautomation-now-with-lasers>`_, gjgfuj 
+- OpenAutomation <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2093100-sandras-mods-openautomation-now-with-lasers>`_, gjgfuj 
 - `OpenBlocks <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291207-openblocks-1-2-8>`_, OpenMods Team
 - `OpenComputers <http://www.minecraftforum.net/topic/2201440-opencomputers-v127/>`_, Sangar
 - `Progressive Automation <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076388-progressive-automation-upgradeable-machines>`_, Vanhal
