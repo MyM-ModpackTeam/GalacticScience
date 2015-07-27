@@ -44,3 +44,4 @@ Galactic Science
 - `Blood Magic <https://github.com/WayofTime/BloodMagic>`_, WayofTime
 - `Tardis Mod <http://www.curse.com/mc-mods/minecraft/230170-tardis-mod>`_, ShaneDarkholme
 - `INpureCore <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2196459-1-7-10-inpure-projects-denoflions-mods>`_, denoflions
+- `CustomMainMenu <http://minecraft.curseforge.com/mc-mods/226406-custom-main-menu>`_, Lumien

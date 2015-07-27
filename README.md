@@ -10,3 +10,4 @@
 
 #### Credits
 - [Mod Developers](https://github.com/MyM-ModpackTeam/GalacticScience/blob/master/credits.rst)
+- MainMenu Background - [TK769](http://tk769.deviantart.com)
