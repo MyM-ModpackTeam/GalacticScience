@@ -152,9 +152,9 @@ recipes.addShaped(<exastris:sieve_automatic>,
 
 recipes.remove(<superMassiveTech:starHarvester>);
 recipes.addShaped(<superMassiveTech:starHarvester>, 
-	[[<ore:blueGem>, <ore:blueGem>, <ore:blueGem>], 
+	[[<SpacePluto:null>, <SpacePluto:null>, <SpacePluto:null>], 
 	[<minecraft:iron_bars>, null, <minecraft:iron_bars>], 
-	[<ore:blueGem>, <SpacePluto:null>, <ore:blueGem>]]);
+	[<SpacePluto:null>, <SpacePluto:null>, <SpacePluto:null>]]);
 
 // ================================================================================
 // Ender IO
