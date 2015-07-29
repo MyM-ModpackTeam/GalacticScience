@@ -42,19 +42,19 @@ mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.mars:6>, <GalacticraftMars:
 mods.exnihilo.Sieve.addRecipe(<SpaceMercury:mercury_block:2>, <SpaceMercury:mercury_block:4>, 100);
 mods.exnihilo.Sieve.addRecipe(<SpaceMercury:mercury_block:1>, <SpaceMercury:mercury_block:4>, 100);
 mods.exnihilo.Sieve.addRecipe(<SpaceMercury:mercury_block>, <SpaceMercury:mercury_block:4>, 100);
-mods.exnihilo.Sieve.addRecipe(<SpaceHole:hole_basic:2>, <minecraft:ender_pearl>, 60);
-mods.exnihilo.Sieve.addRecipe(<SpaceHole:hole_basic:1>, <minecraft:ender_pearl>, 60);
-mods.exnihilo.Sieve.addRecipe(<SpaceHole:hole_basic>, <minecraft:ender_pearl>, 60);
+mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.asteroidsBlock:2>, <minecraft:ender_pearl>, 60);
+mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.asteroidsBlock:1>, <minecraft:ender_pearl>, 60);
+mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.asteroidsBlock>, <minecraft:ender_pearl>, 60);
 
-mods.exnihilo.Sieve.addRecipe(<SpaceHole:hole_basic:2>, <NuclearCraft:material:44>, 60);
-mods.exnihilo.Sieve.addRecipe(<SpaceHole:hole_basic:1>, <NuclearCraft:material:44>, 60);
-mods.exnihilo.Sieve.addRecipe(<SpaceHole:hole_basic>, <NuclearCraft:material:44>, 60);
-mods.exnihilo.Sieve.addRecipe(<SpaceHole:hole_basic:2>, <NuclearCraft:blockOre:8>, 60);
-mods.exnihilo.Sieve.addRecipe(<SpaceHole:hole_basic:1>, <NuclearCraft:blockOre:8>, 60);
-mods.exnihilo.Sieve.addRecipe(<SpaceHole:hole_basic>, <NuclearCraft:blockOre:8>, 60);
-mods.exnihilo.Sieve.addRecipe(<SpaceHole:hole_basic:2>, <NuclearCraft:blockOre:1>, 60);
-mods.exnihilo.Sieve.addRecipe(<SpaceHole:hole_basic:1>, <NuclearCraft:blockOre:1>, 60);
-mods.exnihilo.Sieve.addRecipe(<SpaceHole:hole_basic>, <NuclearCraft:blockOre:1>, 60);
+mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.asteroidsBlock:2>, <NuclearCraft:material:44>, 60);
+mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.asteroidsBlock:1>, <NuclearCraft:material:44>, 60);
+mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.asteroidsBlock>, <NuclearCraft:material:44>, 60);
+mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.asteroidsBlock:2>, <NuclearCraft:blockOre:8>, 60);
+mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.asteroidsBlock:1>, <NuclearCraft:blockOre:8>, 60);
+mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.asteroidsBlock>, <NuclearCraft:blockOre:8>, 60);
+mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.asteroidsBlock:2>, <NuclearCraft:blockOre:1>, 60);
+mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.asteroidsBlock:1>, <NuclearCraft:blockOre:1>, 60);
+mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.asteroidsBlock>, <NuclearCraft:blockOre:1>, 60);
 
 mods.exnihilo.Sieve.addRecipe(<SpaceVenus:venus_basic:2>, <NuclearCraft:material:18>, 60);
 mods.exnihilo.Sieve.addRecipe(<SpaceVenus:venus_basic:1>, <NuclearCraft:material:18>, 60);
