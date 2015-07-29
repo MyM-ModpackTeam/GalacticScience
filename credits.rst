@@ -1,7 +1,6 @@
-
-==============
+================
 Galactic Science
-==============
+================
 - `Treecapitator <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1281180-daftpvfs-mods-treecapitator-crystalwing>`_, bspkrs&DaftPVF 
 - `4Space <mattparks5855.com>`_, mattparks5855
 - `Armourer's Workshop <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2309193-wip-alpha-armourers-workshop-weapon-armour-skins>`_, RiskyKen
