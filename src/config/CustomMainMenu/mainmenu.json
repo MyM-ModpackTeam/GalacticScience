@@ -4,11 +4,11 @@
         "logo":
         {
             "image" : "mainmenu:logo.png",
-            "posX" : 28,
-            "posY" : 20,
+            "posX" : 30,
+            "posY" : -320,
             "width" : 180,
             "height" : 101,
-            "alignment" : "top_left"
+            "alignment" : "bottom_left"
         }
     },
     
