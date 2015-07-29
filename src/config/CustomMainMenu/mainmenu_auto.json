@@ -1,0 +1,146 @@
+{
+    "images":
+    {
+        "logo":
+        {
+            "image" : "mainmenu:logo.png",
+            "posX" : 7,
+            "posY" : 7,
+            "width" : 80,
+            "height" : 45,
+            "alignment" : "top_left"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "",
+            "posX" : 62,
+            "posY" : -205,
+            "width" : 81,
+            "height" : 15,
+            "imageWidth" : 387,
+            "imageHeight" : 72,
+            "alignment" : "bottom_left",
+            "texture" : "mainmenu:singleplayer.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "",
+            "posX" : 62,
+            "posY" : -185,
+            "width" : 76,
+            "height" : 15,
+            "imageWidth" : 364,
+            "imageHeight" : 72,
+            "alignment" : "bottom_left",
+            "texture" : "mainmenu:multiplayer.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "options":
+        {
+            "text" : "",
+            "posX" : 62,
+            "posY" : -165,
+            "width" : 52,
+            "height" : 15,
+            "imageWidth" : 248,
+            "imageHeight" : 72,
+            "alignment" : "bottom_left",
+            "texture" : "mainmenu:options.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "",
+            "posX" : 62,
+            "posY" : -145,
+            "width" : 37,
+            "height" : 15,
+            "imageWidth" : 178,
+            "imageHeight" : 72,
+            "alignment" : "bottom_left",
+            "texture" : "mainmenu:mods.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "",
+            "posX" : 62,
+            "posY" : -50,
+            "width" : 29,
+            "height" : 15,
+            "imageWidth" : 139,
+            "imageHeight" : 72,
+            "alignment" : "bottom_left",
+            "texture" : "mainmenu:quit.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "bug":
+        {
+            "text" : "",
+            "posX" : -78,
+            "posY" : -20,
+            "width" : 8,
+            "height" : 8,
+            "imageWidth" : 64,
+            "imageHeight" : 64,
+            "alignment" : "bottom_right",
+            "tooltip" : "Bug Reports",
+            "texture" : "mainmenu:bug.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/MyM-ModpackTeam/GalacticScience/issues"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "version":
+        {
+            "text" : "Beta {version}",
+            "posX" : -60,
+            "posY" : -20,
+            "color" : 10921638,
+            "alignment" : "bottom_right"
+        }
+    },
+    
+    "other":
+    {        
+        "background":
+        {
+            "image" : "mainmenu:background.jpg",
+            "mode" : "fill"
+        }
+    }
+}
