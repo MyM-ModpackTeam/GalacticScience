@@ -131,6 +131,7 @@
             "posX" : -60,
             "posY" : -20,
             "color" : 10921638,
+            "hoverColor" : 10921638,
             "alignment" : "bottom_right"
         }
     },
