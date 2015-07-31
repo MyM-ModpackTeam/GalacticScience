@@ -16,3 +16,8 @@ NEI.hide(<rftools:dimensionMonitorItem>);
 NEI.hide(<rftools:dimensionModuleItem>);
 NEI.hide(<rftools:dimletWorkbenchBlock>);
 NEI.hide(<rftools:dimletTemplate>);
+
+// ================================================================================
+// ExtraUtilities
+
+NEI.hide(<ExtraUtilities:dark_portal:*>);

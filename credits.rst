@@ -4,8 +4,7 @@ Galactic Science
 - `Treecapitator <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1281180-daftpvfs-mods-treecapitator-crystalwing>`_, bspkrs&DaftPVF 
 - `4Space <mattparks5855.com>`_, mattparks5855
 - `Armourer's Workshop <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2309193-wip-alpha-armourers-workshop-weapon-armour-skins>`_, RiskyKen
-- `Carpenter's Blocks <http://www.carpentersblocks.com/>`_, 
-- `ChickenChunks <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods>`_, ChickenBones
+- `Carpenter's Blocks <http://www.carpentersblocks.com/>`_, Mineshopper
 - `Chisel 2 <http://minecraft.curseforge.com/mc-mods/225236-chisel-2>`_, TheCricket26
 - `DimStorage <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2104639-dimstorage>`_, Gaarnik
 - `EnderIO <http://enderio.com/>`_, CrazyPants
@@ -34,7 +33,7 @@ Galactic Science
 - `SolarFlux <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2187592-solar-flux-a-k-a-compactsolars-for-redstone-flux>`_, Nauktis
 - `Super Massive Techn <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2105190-super-massive-tech-harness-the-power-of-the-stars>`_, Tterrag
 - `WAILA <http://minecraft.curseforge.com/members/ProfMobius/projects>`_, ProfMobius
-- `HQM <http://minecraft.curseforge.com/mc-mods/77027-hardcore-questing-mode>`_, 
+- `HQM <http://minecraft.curseforge.com/mc-mods/77027-hardcore-questing-mode>`_, lorddusk
 - `NoTimeFix <https://github.com/CannibalVox/NoTimeFix/>`_, CannibalVox
 - `ResourceLoader <http://minecraft.curseforge.com/mc-mods/226447-resource-loader>`_. Lumien
 - `SGCraft <http://www.cosc.canterbury.ac.nz/greg.ewing/minecraft/mods/SGCraft/>`_, Greg
@@ -44,3 +43,5 @@ Galactic Science
 - `Tardis Mod <http://www.curse.com/mc-mods/minecraft/230170-tardis-mod>`_, ShaneDarkholme
 - `INpureCore <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2196459-1-7-10-inpure-projects-denoflions-mods>`_, denoflions
 - `CustomMainMenu <http://minecraft.curseforge.com/mc-mods/226406-custom-main-menu>`_, Lumien
+- `Dimensional Anchor <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1281065-immibiss-mods-now-with-85-7-less-version-numbers>`_, immibis
+- `Immibis Core <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1281065-immibiss-mods-now-with-85-7-less-version-numbers>`_ immibis
