@@ -1,0 +1,57 @@
+println """
+******************************************
+        Building Galactic Science! 
+
+ Output files will be in basePath/build/
+******************************************
+"""
+
+version = packVersion
+description = packDescription
+def forgeCompatibility = packForgeCompatibility
+
+ext {
+    buildSources = "$buildDir/sources"
+}
+
+task buildAll(dependsOn: ['buildServer', 'buildClient'])
+
+task compileServer(type: Copy) {
+    doFirst {
+        delete("$buildSources/server")
+    }
+    from('src') {
+        exclude '**/_CLIENT/**'
+    }
+    into "$buildSources/server"
+
+    eachFile { details ->
+        details.path = details.path.replaceAll('_SERVER', '');
+    }
+    includeEmptyDirs = false
+}
+
+task compileClient(type: Copy) {
+    doFirst {
+        delete("$buildSources/client")
+    }
+    from('src') {
+        exclude '**/_SERVER/**'
+    }
+    into "$buildSources/client"
+
+    eachFile { details ->
+        details.path = details.path.replaceAll('_CLIENT', '');
+    }
+    includeEmptyDirs = false
+}
+
+task buildServer(type: Zip, dependsOn: ['compileServer']) {
+    from "$buildSources/server"
+    baseName = "$buildDir/${project.name}_${project.version}_Server"
+}
+
+task buildClient(type: Zip, dependsOn: ['compileClient']) {
+    from "$buildSources/client"
+    baseName = "$buildDir/${project.name}_${project.version}_Client"
+}
