@@ -6,6 +6,8 @@ println """
 ******************************************
 """
 
+import org.apache.tools.ant.filters.ReplaceTokens
+
 version = packVersion
 description = packDescription
 def forgeCompatibility = packForgeCompatibility
@@ -22,6 +24,7 @@ task compileServer(type: Copy) {
     }
     from('src') {
         exclude '**/_CLIENT/**'
+        filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
     }
     into "$buildSources/server"
 
@@ -37,6 +40,7 @@ task compileClient(type: Copy) {
     }
     from('src') {
         exclude '**/_SERVER/**'
+        filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
     }
     into "$buildSources/client"
 

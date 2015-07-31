@@ -127,7 +127,7 @@
     {
         "version":
         {
-            "text" : "Beta {version}",
+            "text" : "Beta @version@",
             "posX" : -60,
             "posY" : -20,
             "color" : 10921638,
