@@ -36,6 +36,17 @@ recipes.remove(<ExtraUtilities:dark_portal:2>);
 // RFTools
 
 recipes.remove(<rftools:dimensionBuilderBlock>);
+recipes.remove(<rftools:dimensionEditorBlock>);
+recipes.remove(<rftools:dimensionMonitorBlock>);
+recipes.remove(<rftools:dimletFilterBlock>);
+recipes.remove(<rftools:dimletResearcherBlock>);
+recipes.remove(<rftools:dimletScramblerBlock>);
+recipes.remove(<rftools:dimensionEnscriberBlock>);
+recipes.remove(<rftools:dimensionBuilderBlock>);
+recipes.remove(<rftools:dimensionMonitorItem>);
+recipes.remove(<rftools:dimensionModuleItem>);
+recipes.remove(<rftools:dimletWorkbenchBlock>);
+recipes.remove(<rftools:dimletTemplate>);
 
 // ================================================================================
 // SolarFlux
