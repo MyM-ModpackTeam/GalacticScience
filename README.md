@@ -1,6 +1,15 @@
 # GalacticScience
 ![promo](http://i.imgur.com/mNjrk0a.jpg)
 
+###Compiling
+Terminal/Command Prompt:
+
+    ./gradlew clean build
+
+Windows syntax:
+
+    gradlew clean build
+
 #### ModPack Team
 - **Caithleen aka drz2k** - *Lead Developement, Initial Idea*
 - **ChetwyndKid** - *Developement: new content and bug fixing*
