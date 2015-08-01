@@ -4,11 +4,11 @@
 ###Compiling
 Terminal/Command Prompt:
 
-    ./gradlew clean build
+    ./gradlew buildAll
 
 Windows syntax:
 
-    gradlew clean build
+    gradlew buildAll
 
 #### ModPack Team
 - **Caithleen aka drz2k** - *Lead Developement, Initial Idea*
