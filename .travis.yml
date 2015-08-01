@@ -1,35 +1,19 @@
-## Use java for gradle
 language: java
-
-## Keep files for deploy
 skip_cleanup: true
-
-## Skip install
-install: 
-  - true
-
-## Use provided gradle
-# before_install:
-#  - "chmod +x gradlew"
-# script: 
-#   - "./gradlew buildAll"
-##
-
-# Use system gradle
-script: 
-  - "gradle buildAll"
-##
-
-## deploy release to github
+install:
+- true
+script:
+- gradle buildAll
 deploy:
   provider: releases
   api_key:
     secure: X897zWbauuhY41eEvB1Tmcu/nq3mtWVDv7RSyPBhrPLdUtQ+RDrX2VaSrxCpm7DggALSbiRxoPMO5nrufBkIGge3wKAPBA+iPJ7hJYDu496fuvUFnpQomZfoIbEBydh1438ILqPPsJxNtJtmqcukVrUHz8rWzkqG9JGSE4gHcgjpPAZHwEFtgsD4oS8YKo9aWGCsgXAswzF/p//sAW3gj/rwG4XzploUbnhmfhvn4DpEegINLEM+JGd9Q7enFRDHS7JEYZZ0XCQ8XP9JQDlRyGRAJwy8NH0cIqat8TdIpEVz+p9HHx+c0Q7FPCCsFFpoLjHq/m/l48C8l6yyA5vdeIiKaXD6M1tk4XPyrjRpy5oduiiWGtXnSzkmzt5uCKIz/KP91mc54ZfDKLHRk/CP31HThI5yPooq/14NFyKAvfKFBdni+xohEYloqtXF1HVBX12yhDTktZNXSPnotsfJmuZ84GBKM5napSPYIGvhhFY/Q9kwXXOrO2nj+U8AxJxC6MLWeeZz1x4cY7ODZ3VH5Dro79oqeKDIR3YUGQ4c/YNGW/CYJ0wc0VeSGmuWJguxr3GT0upSZNITVGcDgWUWd4XXo2m5xahQgteIOs+S27wnF9Ff4fQaS2Gt7nrHTkGXtmA499Xw6x15LVJSuVgsp43CXBKdnyQsoZy3ezVI314=
-  ## use file glob for wildcards
   file_glob: true
-  file: 
-    - "build/Galactic Science_*_Client.zip"
-    - "build/Galactic Science_*_Server.zip"
-  ## only deploy tags/versions
+  file:
+  - build/Galactic Science_*_Client.zip
+  - build/Galactic Science_*_Server.zip
   on:
     tags: true
+notifications:
+  slack:
+    secure: mZbXFMRQLQ0Ej3FNFzdlX99+Ma68wLhCsaE2Gbz8JLeBxUzuHSCUZgA5dnqSi2/akDBQO6s1ekUxzWuM6/Plh4bUX/xeIL+SqQ3j0I2Txj5GIGQJN9Is+pe1dL858pVM0o+MzjB6d170/OkO4IjahNq935M3v20/YbXWytOmY2vvFp0GYwshrWrb/dnhUhMLdW8Ya80a2wAKFx/XvhQSGTtv/a+FKSwcNPdIqXh1RGjJKx5LsNQQF4f/+tTU6pIFyeJcRtLVN2t+4rHorVHCX76g7yI6HxQz87+mLhgtLmRvaol4rMPfGWj4LEFqB2ym7WIA9YBkN3x1JGjKJBmOofztd57GBFST2hiqp9+C6uX0TL1KN3U7mAmKkPtaptzGjBlHp6j6yzC17YfP+EowdxFsrJLoqP5KBJPkUrEQGBBeTPbi9aSaKM7tamX4nK5L0beq6uMjqUCbbthPNlFh8DBiDKpBjpukOPPgUFh8/zvhnyc2jk4xqrhfGQkMlMtCv402Dtiwdlhi7yYaaYqxhMHPvLI8CTM4vchHWcm460tksM1H5vyDza0YqlNnJ2rMGjyz+Z8OMzy18WmIeuNi9A+xPSkMLj6GtEPG3kTR4ftcNaspRruLIbt5Zkf8Q0z6MZTg3tN1lS/ORhNtS0TrU6la/RgmmOl8RwX1SXkyPBk=
