@@ -24,6 +24,17 @@ task compileServer(type: Copy) {
     }
     from('src') {
         exclude '**/_CLIENT/**'
+    }
+    from('src') {
+        include '**/*.properties'
+        include '**/*.txt'
+        include '**/*.json'
+        include '**/*.cfg'
+        include '**/*.conf'
+        include '**/*.config'
+        include '**/*.xml'
+        include '**/*.recipes'
+        exclude '**/_CLIENT/**'
         filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
     }
     into "$buildSources/server"
@@ -39,6 +50,17 @@ task compileClient(type: Copy) {
         delete("$buildSources/client")
     }
     from('src') {
+        exclude '**/_SERVER/**'
+    }
+    from('src') {
+        include '**/*.properties'
+        include '**/*.txt'
+        include '**/*.json'
+        include '**/*.cfg'
+        include '**/*.conf'
+        include '**/*.config'
+        include '**/*.xml'
+        include '**/*.recipes'
         exclude '**/_SERVER/**'
         filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
     }
