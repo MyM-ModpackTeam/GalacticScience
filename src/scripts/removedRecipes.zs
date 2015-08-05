@@ -52,3 +52,8 @@ recipes.remove(<rftools:dimletTemplate>);
 // SolarFlux
 
 recipes.remove(<SolarFlux:solar1>);
+
+// ================================================================================
+// Chisel
+
+recipes.remove(<chisel:smashingrock>);
