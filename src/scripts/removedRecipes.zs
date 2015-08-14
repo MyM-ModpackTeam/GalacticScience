@@ -13,8 +13,8 @@ mods.exnihilo.Hammer.removeRecipe(<minecraft:gravel>);
 // ================================================================================
 // The Dalek Mod
 
-//recipes.remove(<thedalekmod:Tardis_11>);
-//recipes.remove(<thedalekmod:TardisKey>);
+recipes.remove(<thedalekmod:Tardis_11>);
+recipes.remove(<thedalekmod:TardisKey>);
 
 // ================================================================================
 // SG Craft
