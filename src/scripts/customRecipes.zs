@@ -147,5 +147,5 @@ recipes.addShaped(<GalacticraftCore:tile.moonBlock:3>,
 
 recipes.addShaped(<minecraft:name_tag>,
 	[[null, <minecraft:string>, null],
-	[<minecraft:string>, <ore:slimeball>, <minecraft:string>],
-	[null, null, <minecraft:paper>]]);
+	[<minecraft:string>, <minecraft:leather>, <minecraft:string>],
+	[null, <ore:slimeball>, <minecraft:paper>]]);
