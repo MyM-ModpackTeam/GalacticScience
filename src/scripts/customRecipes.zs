@@ -141,3 +141,11 @@ recipes.addShaped(<GalacticraftCore:tile.moonBlock:3>,
 	[[<ore:element_O>, <minechem:minechemElement:8>, <ore:element_O>], 
 	[<ore:element_O>, <ore:element_Si>, <ore:element_O>], 
 	[<minechem:minechemElement:8>, <ore:element_O>, <minechem:minechemElement:8>]]);
+
+// ================================================================================
+// Minecraft Vanilla
+
+recipes.addShaped(<minecraft:name_tag>,
+	[[null, <minecraft:string>, null],
+	[<minecraft:string>, <ore:slimeball>, <minecraft:string>],
+	[null, null, <minecraft:paper>]]);
