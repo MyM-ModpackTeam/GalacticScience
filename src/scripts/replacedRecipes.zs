@@ -173,3 +173,15 @@ recipes.addShaped(<minechem:tile.fusionWall>*16,
 	[[<ore:ingotDesh>, <ore:element_Pb>, <ore:ingotDesh>], 
 	[<ore:ingotDesh>, <minechem:minechemElement:82>, <GalacticraftMars:item.null:2>], 
 	[<GalacticraftMars:item.null:2>, <ore:element_Pb>, <ore:ingotDesh>]]);
+
+// ================================================================================
+// 4Space
+
+recipes.removeShaped(<SpacePluto:null>);
+recipes.addShapeless(<SpacePluto:null> * 9, [<ore:sapphireBlock>]);
+
+recipes.removeShaped(<SpacePluto:null:1>);
+recipes.addShapeless(<SpacePluto:null:1> * 9, [<SpacePluto:pluto_block:9>]);
+
+recipes.removeShaped(<SpacePluto:null:2>);
+recipes.addShapeless(<SpacePluto:null:2> * 9, [<SpacePluto:pluto_block:8>]);
