@@ -14,13 +14,13 @@ mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:blankSlate>);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:blankSlate>, <TardisMod:item.TardisMod.CraftingComponent:2>, 0, 1000, 50, 50);
 
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:weakBloodOrb>);
-//mods.bloodmagic.Altar.addRecipe(<AWWayofTime:weakBloodOrb>, <thedalekmod:DalekaniumIngot>, 0, 1000, 50, 50);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:weakBloodOrb>, <thedalekmod:DalekaniumIngot>, 0, 1000, 50, 50);
 
 recipes.remove(<AWWayofTime:Altar>);
-//recipes.addShaped(<AWWayofTime:Altar>, 
-//	[[<GalacticraftMars:item.null:2>, <GalacticraftMars:item.null:2>, <GalacticraftMars:item.null:2>], 
-//	[<ore:ingotDesh>, <thedalekmod:DalekaniumIngot>, <GalacticraftMars:item.null:2>], 
-//	[<ore:ingotDesh>, <ore:ingotDesh>, <ore:ingotDesh>]]);
+recipes.addShaped(<AWWayofTime:Altar>, 
+	[[<GalacticraftMars:item.null:2>, <GalacticraftMars:item.null:2>, <GalacticraftMars:item.null:2>], 
+	[<ore:ingotDesh>, <thedalekmod:DalekaniumIngot>, <GalacticraftMars:item.null:2>], 
+	[<ore:ingotDesh>, <ore:ingotDesh>, <ore:ingotDesh>]]);
 
 // ================================================================================
 // TardisMod
