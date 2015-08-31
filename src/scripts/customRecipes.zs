@@ -149,3 +149,9 @@ recipes.addShaped(<minecraft:name_tag>,
 	[[null, <minecraft:string>, null],
 	[<minecraft:string>, <minecraft:leather>, <minecraft:string>],
 	[null, <ore:slimeball>, <minecraft:paper>]]);
+
+recipes.addShaped(<minecraft:waterlily>,[[null, <minecraft:string>, null],
+        [<minecraft:string>, <minecraft:leaves>, <minecraft:string>],
+	[null, null, <minecraft:string>]]);
+
+
