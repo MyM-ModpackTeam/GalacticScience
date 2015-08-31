@@ -126,6 +126,10 @@ recipes.addShaped(<ExtraUtilities:unstableingot>,
 	[<ore:nuggetUnstable>, <ore:nuggetUnstable>, <ore:nuggetUnstable>], 
 	[<ore:nuggetUnstable>, <ore:nuggetUnstable>, <ore:nuggetUnstable>]]);
 
+recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:8>, [[<minecraft:nether_star>, <minecraft:nether_star>, <minecraft:nether_star>], [<minecraft:nether_star>, <ExtraUtilities:enderQuarryUpgrade:7>, <minecraft:nether_star>], [<minecraft:nether_star>, <minecraft:nether_star>, <minecraft:nether_star>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:7>, [[<ore:ingotDesh>, <minecraft:nether_star>, <ore:ingotDesh>], [<minecraft:nether_star>, <ExtraUtilities:enderQuarryUpgrade:6>, <minecraft:nether_star>], [<ore:ingotDesh>, <minecraft:nether_star>, <ore:ingotDesh>]]);
+recipes.addShaped(<ExtraUtilities:enderQuarryUpgrade:6>, [[<ore:ingotDesh>, <ore:ingotDesh>, <ore:ingotDesh>], [<ore:ingotDesh>, <minecraft:nether_star>, <ore:ingotDesh>], [<ore:ingotDesh>, <ore:ingotDesh>, <ore:ingotDesh>]]);
+
 // ================================================================================
 // Galacticraft
 
