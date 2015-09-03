@@ -132,6 +132,9 @@ recipes.addShaped(<NuclearCraft:parts:2>,
 	[[<ore:flint>, <ore:flint>, <ore:flint>], [<ore:ingotDesh>, <ore:ingotDesh>, <ore:ingotDesh>], 
 	[<minecraft:stick>, <ore:stickWood>, <ore:stickWood>]]);
 
+recipes.remove(<NuclearCraft:nuclearWorkspace>);
+recipes.addShaped(<NuclearCraft:nuclearWorkspace>, [[<NuclearCraft:parts>, <NuclearCraft:parts>, <NuclearCraft:parts>], [null, <ore:ingotDesh>, null], [<ore:ingotDesh>, <ore:ingotDesh>, <ore:ingotDesh>]]);
+
 // ================================================================================
 // ExAstris
 
