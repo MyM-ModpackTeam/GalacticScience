@@ -158,4 +158,6 @@ recipes.addShaped(<minecraft:waterlily>,[[null, <minecraft:string>, null],
         [<minecraft:string>, <minecraft:leaves>, <minecraft:string>],
 	[null, null, <minecraft:string>]]);
 
+// gold dust workaround
 
+recipes.addShaped(<Eln:Eln.sharedItem:7>, [[<minecraft:gold_ingot>, <ore:stickWood>]]);
