@@ -9,6 +9,10 @@ Terminal/Command Prompt:
 Windows syntax:
 
     gradlew buildAll
+    
+###Wiki
+
+New players, please see the [Wiki](https://github.com/MyM-ModpackTeam/GalacticScience/wiki) for additional modpack information and a quick Getting Started guide.
 
 #### ModPack Team
 - **Caithleen aka drz2k** - *Lead Developement, Initial Idea*
