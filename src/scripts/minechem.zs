@@ -9,7 +9,7 @@ Chemicals.addElement(792,"SW","Willithium","Metalloid","Liquid","Stable");
 Chemicals.addElement(891,"CL","Caithleenium","Metalloid","Liquid","Stable");
 Chemicals.addElement(495,"RtC","Raetacium","Metalloid","Liquid","Stable");
 Chemicals.addElement(256,"SLI","Slindum","Metalloid","Liquid","Stable");
-
+Chemicals.addElement(693,"GB","GenerikBidium","Metalloid","Liquid","Stable");
 //Math
 // MyM = 2 enderpeals
 // CwY = 4
@@ -20,6 +20,7 @@ Synthesiser.addRecipe([<minechem:minechemElement:891>,<minechem:minechemElement:
 Synthesiser.addRecipe([<minechem:minechemElement:792>],<SpacePluto:null:1>,true,50000);	
 Synthesiser.addRecipe([<minechem:minechemElement:396>],<SpacePluto:null>,true,50000);	
 Synthesiser.addRecipe([<minechem:minechemElement:198>],<SpacePluto:null:2>,true,50000);	
+Synthesiser.addRecipe([<minechem:minechemElement:693>],<ExtraUtilities:unstableingot:1>,true,50000);	
 
 
 
