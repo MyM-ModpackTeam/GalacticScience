@@ -32,7 +32,8 @@ Chemicals.addElement(693,"GB","GenerikBidium","Metalloid","Liquid","Stable");
 Synthesiser.addRecipe([<minechem:minechemElement:891>,<minechem:minechemElement:256>],<SpaceVenus:null:4>,true,50000);	
 Synthesiser.addRecipe([<minechem:minechemElement:792>],<SpacePluto:null:1>,true,50000);	
 Synthesiser.addRecipe([<minechem:minechemElement:396>],<SpacePluto:null>,true,50000);	
-Synthesiser.addRecipe([<minechem:minechemElement:198>],<SpacePluto:null:2>,true,50000);	
+Synthesiser.addRecipe([<minechem:minechemElement:198>],<SpacePluto:null:2>,true,50000);
+Synthesiser.addRecipe([<minechem:minechemElement:693>],<ExtraUtilities:unstableingot:1>,true,50000);
 
 Decomposer.removeRecipe(cobble1x);
 Decomposer.addRecipe(cobble1x,1,[[Na,Cl],[Si,O],[Mg,O],[Ti,O],[Fe,O],[Pb,O]]);
