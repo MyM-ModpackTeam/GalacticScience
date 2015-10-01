@@ -35,8 +35,6 @@ Synthesiser.addRecipe([<minechem:minechemElement:396>],<SpacePluto:null>,true,50
 Synthesiser.addRecipe([<minechem:minechemElement:198>],<SpacePluto:null:2>,true,50000);	
 
 Decomposer.removeRecipe(cobble1x);
-Decomposer.removeRecipe(cobble2x);
-Decomposer.removeRecipe(cobble3x);
 Decomposer.addRecipe(cobble1x,1,[[Na,Cl],[Si,O],[Mg,O],[Ti,O],[Fe,O],[Pb,O]]);
 Decomposer.addRecipe(cobble2x,1,[[Na*9,Cl*9],[Si*9,O*9],[Mg*9,O*9],[Ti*9,O*9],[Fe*9,O*9],[Pb*9,O*9]]);
 Decomposer.addRecipe(cobble3x,1,[[Na*13,Cl*13,Si*13,Mg*13,Ti*13,Fe*13,Pb*13,O*65]]);
