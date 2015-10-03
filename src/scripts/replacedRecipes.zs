@@ -189,3 +189,8 @@ recipes.addShapeless(<SpacePluto:null:1> * 9, [<SpacePluto:pluto_block:9>]);
 
 recipes.removeShaped(<SpacePluto:null:2>);
 recipes.addShapeless(<SpacePluto:null:2> * 9, [<SpacePluto:pluto_block:8>]);
+
+//adv generators
+
+recipes.remove(<advgenerators:Controller>);
+recipes.addShaped(<advgenerators:Controller>, [[<ore:ingotDesh>, <ore:dustRedstone>, <ore:ingotDesh>], [<ore:dustRedstone>, <ore:gemQuartz>, <ore:dustRedstone>], [<ore:ingotDesh>, <ore:dustRedstone>, <ore:ingotDesh>]]);
