@@ -97,7 +97,7 @@ mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <minecraft:po
 recipes.addShapeless(<exnihilo:exnihilo.nether_copper_broken> * 4, 
 	[<GalacticraftCore:tile.fallenMeteor>, <GalacticraftCore:tile.fallenMeteor>]);
 
-recipes.addShapeless(<exnihilo:exnihilo.iron_broken> * 4, 
+recipes.addShapeless(<exnihilo:exnihilo.iron_broken> * 12, 
 	[<GalacticraftCore:tile.fallenMeteor>]);
 recipes.addShaped(<minecraft:piston>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:cobblestone>, <ore:ingotAluminium>, <ore:cobblestone>], [<ore:cobblestone>, <ore:dustRedstone>, <ore:cobblestone>]]);
 // ================================================================================
