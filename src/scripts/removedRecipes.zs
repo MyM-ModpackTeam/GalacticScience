@@ -21,6 +21,10 @@ mods.exnihilo.Hammer.removeRecipe(<minecraft:netherrack>);
 
 recipes.remove(<thedalekmod:Tardis_11>);
 recipes.remove(<thedalekmod:TardisKey>);
+recipes.remove(<thedalekmod:SonicBlaster>);
+recipes.remove(<thedalekmod:timeVortexManipulator>);
+
+
 
 // ================================================================================
 // SG Craft
