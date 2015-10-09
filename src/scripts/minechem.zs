@@ -35,11 +35,11 @@ Synthesiser.addRecipe([<minechem:minechemElement:396>],<SpacePluto:null>,true,50
 Synthesiser.addRecipe([<minechem:minechemElement:198>],<SpacePluto:null:2>,true,50000);
 Synthesiser.addRecipe([<minechem:minechemElement:693>],<ExtraUtilities:unstableingot:1>,true,50000);
 
-Decomposer.removeRecipe(cobble1x);
-Decomposer.addRecipe(cobble1x,1,[[Na,Cl],[Si,O],[Mg,O],[Ti,O],[Fe,O],[Pb,O]]);
-Decomposer.addRecipe(cobble2x,1,[[Na*9,Cl*9],[Si*9,O*9],[Mg*9,O*9],[Ti*9,O*9],[Fe*9,O*9],[Pb*9,O*9]]);
-Decomposer.addRecipe(cobble3x,1,[[Na*13,Cl*13,Si*13,Mg*13,Ti*13,Fe*13,Pb*13,O*67]]);
-Decomposer.addRecipe(cobble4x,1,[[Na*117,Cl*117,Si*117,Mg*117,Ti*117,Fe*117,Pb*117,O*603]]);
+//Decomposer.removeRecipe(cobble1x);
+Decomposer.addRecipe(cobble1x,0.12,[[Na,Cl],[Si,O],[Mg,O],[Ti,O],[Fe,O],[Pb,O]]);
+Decomposer.addRecipe(cobble2x,0.12,[[Na*90,Cl*90],[Si*90,O*90],[Mg*90,O*90],[Ti*90,O*90],[Fe*90,O*90],[Pb*90,O*90]]);
+Decomposer.addRecipe(cobble3x,0.12,[[Na*130,Cl*130,Si*130,Mg*130,Ti*130,Fe*130,Pb*130,O*670]]);
+Decomposer.addRecipe(cobble4x,0.12,[[Na*1170,Cl*1170,Si*1170,Mg*1170,Ti*1170,Fe*1170,Pb*1170,O*6030]]);
 
 //per SG block 9*2*3 CL for NQ =54
 // 6*T6 plate= 2*MYM 2*SW 2* CwY = 2*2 + 2*4 + 2*8 = 4+8+16=28
