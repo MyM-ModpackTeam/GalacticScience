@@ -23,7 +23,7 @@ recipes.remove(<thedalekmod:Tardis_11>);
 recipes.remove(<thedalekmod:TardisKey>);
 recipes.remove(<thedalekmod:SonicBlaster>);
 recipes.remove(<thedalekmod:timeVortexManipulator>);
-
+recipes.remove(<thedalekmod:forestBox>);
 
 
 // ================================================================================
