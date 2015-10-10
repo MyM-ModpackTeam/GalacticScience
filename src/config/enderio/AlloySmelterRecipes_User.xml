@@ -27,7 +27,7 @@ ore dictionary.
 
 <AlloySmelterRecipes>
 	<recipeGroup name="EnderIO">
-		<recipe name="ingotNaquadahAlloy" energyCost="800000">
+		<recipe name="ingotNaquadahAlloy" energyCost="600000">
 		<input>
 			<itemStack oreDictionary="naquadah" number="2"/> 
 		</input>      
