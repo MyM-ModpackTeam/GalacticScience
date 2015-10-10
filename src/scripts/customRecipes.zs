@@ -33,7 +33,7 @@ mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:gl
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:dye:15>, 2);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:bone>, 9);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:flint>, 3);
-mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:redstone>, 20);
+mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:redstone>, 2);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <minecraft:gunpowder>, 20);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.mars:9>, <GalacticraftMars:tile.mars:2>, 100);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftMars:tile.mars:5>, <GalacticraftMars:tile.mars:2>, 100);
