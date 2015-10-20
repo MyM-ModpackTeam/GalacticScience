@@ -18,7 +18,7 @@ mods.exnihilo.Hammer.removeRecipe(<minecraft:netherrack>);
 
 // ================================================================================
 // The Dalek Mod
-
+recipes.remove(<thedalekmod:Tardis>);
 recipes.remove(<thedalekmod:Tardis_11>);
 recipes.remove(<thedalekmod:TardisKey>);
 recipes.remove(<thedalekmod:SonicBlaster>);
