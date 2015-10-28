@@ -139,14 +139,14 @@ recipes.addShaped(<NuclearCraft:nuclearWorkspace>, [[<NuclearCraft:parts>, <Nucl
 // ================================================================================
 // ExAstris
 
-recipes.remove(<exastris:hammer_automatic>);
-recipes.addShaped(<exastris:hammer_automatic>, 
+recipes.remove(<exastrisrebirth:blockHammerAutomatic>);
+recipes.addShaped(<exastrisrebirth:blockHammerAutomatic>, 
 	[[<ore:ingotIron>, <minecraft:iron_ingot>, <ore:ingotIron>], 
 	[<ore:ingotIron>, <minecraft:anvil>, <minecraft:iron_ingot>], 
 	[<ore:ingotIron>, <exnihilo:hammer_diamond>, <minecraft:iron_ingot>]]);
 
-recipes.remove(<exastris:sieve_automatic>);
-recipes.addShaped(<exastris:sieve_automatic>, 
+recipes.remove(<exastrisrebirth:blockSieveAutomatic>);
+recipes.addShaped(<exastrisrebirth:blockSieveAutomatic>, 
 	[[<ore:ingotIron>, <exnihilo:sifting_table>, <minecraft:iron_ingot>], 
 	[<ore:ingotIron>, <ore:dustGlowstone>, <ore:ingotIron>], 
 	[<ore:nuggetIron>, null, <ore:nuggetIron>]]);
