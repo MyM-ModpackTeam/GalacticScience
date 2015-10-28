@@ -7,7 +7,6 @@ mods.exnihilo.Crucible.addRecipe(<minecraft:log>, <liquid:oil> * 50);
 mods.exnihilo.Crucible.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <liquid:lava> * 100);
 mods.exnihilo.Crucible.addRecipe(<GalacticraftCore:tile.moonBlock:4>, <liquid:lava> * 100);
 mods.exnihilo.Crucible.addRecipe(<GalacticraftCore:tile.moonBlock:5>, <liquid:lava> * 100);
-mods.exnihilo.Crucible.addRecipe(<minecraft:ice>, <liquid:water> * 200);
 
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <minecraft:blaze_rod>, 80);
 mods.exnihilo.Sieve.addRecipe(<GalacticraftCore:tile.moonBlock:3>, <exnihilo:stone>, 1);
