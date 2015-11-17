@@ -68,6 +68,17 @@ NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "Venus", ktype: "B"}));
 NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "asteroids", ktype: "B"}));
 NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "marsFlat", ktype: "B"}));
 NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "moon", ktype: "B"}));
+NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "Gallifrey", ktype: "B"}));
+NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "Mars", ktype: "B"}));
+NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "Minecraft Beta", ktype: "B"}));
+NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "Minecraft Classic", ktype: "B"}));
+NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "Minecraft Infdev", ktype: "B"}));
+NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "Minecraft Pocket Edition", ktype: "B"}));
+NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "Omicron Persei 8", ktype: "B"}));
+NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "Skaro", ktype: "B"}));
+NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "Tardis", ktype: "B"}));
+NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "The Moon", ktype: "B"}));
+NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "Trenzalore", ktype: "B"}));
 
 NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "Black Color", ktype: "s"}));
 NEI.hide(<rftools:knownDimlet:*>.withTag({dkey: "Black Fog", ktype: "s"}));
