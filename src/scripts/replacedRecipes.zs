@@ -190,7 +190,25 @@ recipes.addShapeless(<SpacePluto:null:1> * 9, [<SpacePluto:pluto_block:9>]);
 recipes.removeShaped(<SpacePluto:null:2>);
 recipes.addShapeless(<SpacePluto:null:2> * 9, [<SpacePluto:pluto_block:8>]);
 
-//adv generators
+// ================================================================================
+// Adv Generators
 
 recipes.remove(<advgenerators:Controller>);
-recipes.addShaped(<advgenerators:Controller>, [[<ore:ingotDesh>, <ore:dustRedstone>, <ore:ingotDesh>], [<ore:dustRedstone>, <ore:gemQuartz>, <ore:dustRedstone>], [<ore:ingotDesh>, <ore:dustRedstone>, <ore:ingotDesh>]]);
+recipes.addShaped(<advgenerators:Controller>, 
+	[[<ore:ingotDesh>, <ore:dustRedstone>, <ore:ingotDesh>], 
+	[<ore:dustRedstone>, <ore:gemQuartz>, <ore:dustRedstone>], 
+	[<ore:ingotDesh>, <ore:dustRedstone>, <ore:ingotDesh>]]);
+
+// ================================================================================
+// Progressive Automation
+
+recipes.remove(<progressiveautomation:CoalPellet>);
+recipes.addShapeless(<progressiveautomation:CoalPellet> * 16, 
+	[<minecraft:coal>, <minecraft:coal>]);
+recipes.addShapeless(<progressiveautomation:CoalPellet> * 16, 
+	[<minecraft:coal:1>, <minecraft:coal:1>]);
+
+
+// ================================================================================
+
+print("Initialized 'replacedRecipes.zs'");

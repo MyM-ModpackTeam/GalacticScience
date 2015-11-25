@@ -47,3 +47,7 @@ Decomposer.addRecipe(cobble4x,0.12,[[Na*1170,Cl*1170,Si*1170,Mg*1170,Ti*1170,Fe*
 
 // 64 SG blocks = 5248 pearls and a ton of power
 
+
+// ================================================================================
+
+print("Initialized 'minechem.zs'");

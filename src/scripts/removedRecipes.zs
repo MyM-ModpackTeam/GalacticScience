@@ -67,3 +67,8 @@ recipes.remove(<SolarFlux:solar1>);
 // Chisel
 
 recipes.remove(<chisel:smashingrock>);
+
+
+// ================================================================================
+
+print("Initialized 'removedRecipes.zs'");
