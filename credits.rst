@@ -49,3 +49,4 @@ Galactic Science
 - `Advanced Generators <http://bdew.net/generators/>`_, bdew
 - `MineTweaker <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1290366-1-6-4-1-7-x-minetweaker-3-customize-your>`_, StanH
 - `ModularSystems <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291862-modular-systems-formally-modular-furnace>`_, pauljoda, Dynovan
+- `LaunchGUI <http://minecraft.curseforge.com/projects/launchgui>`_, TehNut
