@@ -77,8 +77,8 @@ recipes.addShaped(<SGCraft:stargateRing>,
 // ================================================================================
 // ModularSystems
 
-recipes.remove(<modularsystems:blockStorageCore>);
-recipes.addShaped(<modularsystems:blockStorageCore>, 
+recipes.remove(<modularsystems:storageCore>);
+recipes.addShaped(<modularsystems:storageCore>, 
 	[[<ore:plankWood>, <ore:plankWood>, <minecraft:planks>], 
 	[<minecraft:planks>, <ore:ingotDesh>, <ore:plankWood>], 
 	[<ore:plankWood>, <ore:plankWood>, <minecraft:planks>]]);
