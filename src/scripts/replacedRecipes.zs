@@ -194,3 +194,24 @@ recipes.addShapeless(<SpacePluto:null:2> * 9, [<SpacePluto:pluto_block:8>]);
 
 recipes.remove(<advgenerators:Controller>);
 recipes.addShaped(<advgenerators:Controller>, [[<ore:ingotDesh>, <ore:dustRedstone>, <ore:ingotDesh>], [<ore:dustRedstone>, <ore:gemQuartz>, <ore:dustRedstone>], [<ore:ingotDesh>, <ore:dustRedstone>, <ore:ingotDesh>]]);
+
+// ================================================================================
+// Storage Drawers
+
+recipes.remove(<StorageDrawers:controller>);
+recipes.addShaped(<StorageDrawers:controller>, 
+	[[<ore:stone>, <ore:stone>, <ore:stone>], 
+	[<minecraft:comparator>, <ore:drawerBasic>, <minecraft:comparator>], 
+	[<ore:ingotDesh>, <ore:diamond>, <ore:ingotDesh>]]);
+
+recipes.remove(<StorageDrawers:controllerSlave>);
+recipes.addShaped(<StorageDrawers:controllerSlave>, 
+	[[<ore:stone>, <ore:stone>, <ore:stone>], 
+	[<minecraft:comparator>, <ore:drawerBasic>, <minecraft:comparator>], 
+	[<ore:ingotDesh>, <ore:ingotGold>, <ore:ingotDesh>]]);
+	
+recipes.remove(<StorageDrawers:compDrawers>);
+recipes.addShaped(<StorageDrawers:compDrawers>, 
+	[[<ore:stone>, <ore:stone>, <ore:stone>], 
+	[<ore:craftingPiston>, <ore:drawerBasic>, <ore:craftingPiston>], 
+	[<ore:ingotDesh>, <ore:ingotIron>, <ore:ingotDesh>]]);
