@@ -4,8 +4,8 @@
 mods.exnihilo.Hammer.removeRecipe(<minecraft:cobblestone>);
 mods.exnihilo.Hammer.removeRecipe(<minecraft:sand>);
 mods.exnihilo.Hammer.removeRecipe(<minecraft:gravel>);
-mods.exnihilo.Hammer.removeRecipe(<exnihilo:exnihilo.gravel_nether>);
-mods.exnihilo.Hammer.removeRecipe(<exnihilo:exnihilo.gravel_ender>);
+mods.exnihilo.Sieve.removeRecipe(<exnihilo:exnihilo.gravel_nether>);
+mods.exnihilo.Sieve.removeRecipe(<exnihilo:exnihilo.gravel_ender>);
 mods.exnihilo.Hammer.removeRecipe(<minecraft:end_stone>);
 mods.exnihilo.Hammer.removeRecipe(<minecraft:netherrack>);
 
@@ -67,3 +67,8 @@ recipes.remove(<SolarFlux:solar1>);
 // Chisel
 
 recipes.remove(<chisel:smashingrock>);
+
+
+// ================================================================================
+
+print("Initialized 'removedRecipes.zs'");

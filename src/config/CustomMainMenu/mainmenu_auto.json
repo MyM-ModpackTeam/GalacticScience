@@ -103,6 +103,25 @@
             }
         },
         
+        "more":
+        {
+            "text" : "",
+            "posX" : -93,
+            "posY" : -20,
+            "width" : 8,
+            "height" : 8,
+            "imageWidth" : 64,
+            "imageHeight" : 64,
+            "alignment" : "bottom_right",
+            "tooltip" : "More Packs",
+            "texture" : "mainmenu:more.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://minecraft.curseforge.com/members/Caithleen/projects"
+            }
+        },
+        
         "bug":
         {
             "text" : "",

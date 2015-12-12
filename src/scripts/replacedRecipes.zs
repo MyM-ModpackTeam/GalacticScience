@@ -77,8 +77,8 @@ recipes.addShaped(<SGCraft:stargateRing>,
 // ================================================================================
 // ModularSystems
 
-recipes.remove(<modularsystems:blockStorageCore>);
-recipes.addShaped(<modularsystems:blockStorageCore>, 
+recipes.remove(<modularsystems:storageCore>);
+recipes.addShaped(<modularsystems:storageCore>, 
 	[[<ore:plankWood>, <ore:plankWood>, <minecraft:planks>], 
 	[<minecraft:planks>, <ore:ingotDesh>, <ore:plankWood>], 
 	[<ore:plankWood>, <ore:plankWood>, <minecraft:planks>]]);
@@ -139,14 +139,14 @@ recipes.addShaped(<NuclearCraft:nuclearWorkspace>, [[<NuclearCraft:parts>, <Nucl
 // ================================================================================
 // ExAstris
 
-recipes.remove(<exastris:hammer_automatic>);
-recipes.addShaped(<exastris:hammer_automatic>, 
+recipes.remove(<exastrisrebirth:blockHammerAutomatic>);
+recipes.addShaped(<exastrisrebirth:blockHammerAutomatic>, 
 	[[<ore:ingotIron>, <minecraft:iron_ingot>, <ore:ingotIron>], 
 	[<ore:ingotIron>, <minecraft:anvil>, <minecraft:iron_ingot>], 
 	[<ore:ingotIron>, <exnihilo:hammer_diamond>, <minecraft:iron_ingot>]]);
 
-recipes.remove(<exastris:sieve_automatic>);
-recipes.addShaped(<exastris:sieve_automatic>, 
+recipes.remove(<exastrisrebirth:blockSieveAutomatic>);
+recipes.addShaped(<exastrisrebirth:blockSieveAutomatic>, 
 	[[<ore:ingotIron>, <exnihilo:sifting_table>, <minecraft:iron_ingot>], 
 	[<ore:ingotIron>, <ore:dustGlowstone>, <ore:ingotIron>], 
 	[<ore:nuggetIron>, null, <ore:nuggetIron>]]);
@@ -190,7 +190,25 @@ recipes.addShapeless(<SpacePluto:null:1> * 9, [<SpacePluto:pluto_block:9>]);
 recipes.removeShaped(<SpacePluto:null:2>);
 recipes.addShapeless(<SpacePluto:null:2> * 9, [<SpacePluto:pluto_block:8>]);
 
-//adv generators
+// ================================================================================
+// Adv Generators
 
 recipes.remove(<advgenerators:Controller>);
-recipes.addShaped(<advgenerators:Controller>, [[<ore:ingotDesh>, <ore:dustRedstone>, <ore:ingotDesh>], [<ore:dustRedstone>, <ore:gemQuartz>, <ore:dustRedstone>], [<ore:ingotDesh>, <ore:dustRedstone>, <ore:ingotDesh>]]);
+recipes.addShaped(<advgenerators:Controller>, 
+	[[<ore:ingotDesh>, <ore:dustRedstone>, <ore:ingotDesh>], 
+	[<ore:dustRedstone>, <ore:gemQuartz>, <ore:dustRedstone>], 
+	[<ore:ingotDesh>, <ore:dustRedstone>, <ore:ingotDesh>]]);
+
+// ================================================================================
+// Progressive Automation
+
+recipes.remove(<progressiveautomation:CoalPellet>);
+recipes.addShapeless(<progressiveautomation:CoalPellet> * 16, 
+	[<minecraft:coal>, <minecraft:coal>]);
+recipes.addShapeless(<progressiveautomation:CoalPellet> * 16, 
+	[<minecraft:coal:1>, <minecraft:coal:1>]);
+
+
+// ================================================================================
+
+print("Initialized 'replacedRecipes.zs'");

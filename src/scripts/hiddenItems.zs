@@ -21,3 +21,8 @@ NEI.hide(<rftools:dimletTemplate>);
 // ExtraUtilities
 
 NEI.hide(<ExtraUtilities:dark_portal:*>);
+
+
+// ================================================================================
+
+print("Initialized 'hiddenRecipes.zs'");
