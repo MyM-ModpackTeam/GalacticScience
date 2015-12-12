@@ -22,6 +22,11 @@ NEI.hide(<rftools:dimletTemplate>);
 
 NEI.hide(<ExtraUtilities:dark_portal:*>);
 
+// ================================================================================
+// Galacticraft
+
+NEI.hide(<GalacticraftCore:item.spaceship:*>);
+
 
 // ================================================================================
 
