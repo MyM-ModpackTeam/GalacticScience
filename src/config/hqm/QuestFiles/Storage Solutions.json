@@ -1,0 +1,286 @@
+{
+  "name": "Storage Solutions",
+  "description": "Getting Orgonised. Pretty Basic, Helps you learn a few of the storage mods in the pack.",
+  "quests": [
+    {
+      "name": "Moon Barrels.",
+      "description": "Due to the amount of Ions on the moon. We had to create new barrels. Actually we did nothing. The low gravity of the moon seems to allow them to store more.",
+      "x": 20,
+      "y": 14,
+      "bigicon": true,
+      "icon": {
+        "id": "JABBA:barrel"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:barrel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "JABBA:upgradeCore"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "JABBA:upgradeCore",
+          "damage": 4
+        },
+        {
+          "id": "JABBA:upgradeCore",
+          "damage": 7
+        },
+        {
+          "id": "JABBA:upgradeCore",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Going else where.",
+      "description": "Its always a pain when you change your mind where you want your 50 Chests full of stuff. So thats why Dollys Where Invented! Dollys move a chest with all of its items in it. (Can be upgraded to a diamond dolly to move spawners.",
+      "x": 73,
+      "y": 17,
+      "icon": {
+        "id": "JABBA:mover"
+      },
+      "prerequisites": [
+        "Moon Barrels."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "JABBA:mover"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "JABBA:barrel",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Getting Organised.",
+      "description": "This Special barrel will get items sorted into it when there is a Sorting chest connected somewhere. You can have a wall of Sorting barrels. And 1 sorting chest next to it. And it will take items out the chest and put them in the barrels!",
+      "x": 23,
+      "y": 68,
+      "icon": {
+        "id": "RefinedRelocation:sortingBarrel"
+      },
+      "prerequisites": [
+        "Moon Barrels."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "RefinedRelocation:sortingBarrel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "RefinedRelocation:sortingUpgrade",
+          "amount": 5
+        },
+        {
+          "id": "RefinedRelocation:sortingUpgrade",
+          "damage": 1,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Storage Solutions",
+      "description": "Chests the most basic Storage Solution there is.",
+      "x": 19,
+      "y": 180,
+      "bigicon": true,
+      "icon": {
+        "id": "RefinedRelocation:sortingChest"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:chest"
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "IronChest:BlockIronChest",
+          "damage": 3,
+          "amount": 2
+        },
+        {
+          "id": "RefinedRelocation:sortingUpgrade"
+        }
+      ]
+    },
+    {
+      "name": "Sorting Sotrage Upgrade",
+      "description": "Yes! The Sorting upgrade is compatible with IronChests mod!",
+      "x": 55,
+      "y": 184,
+      "icon": {
+        "id": "RefinedRelocation:sortingIronChest"
+      },
+      "prerequisites": [
+        "Storage Solutions"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "RefinedRelocation:sortingIronChest"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "RefinedRelocation:sortingIronChest"
+        },
+        {
+          "id": "IronChest:ironGoldUpgrade"
+        },
+        {
+          "id": "RefinedRelocation:sortingIronChest",
+          "damage": 2,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Dimensional Storage",
+      "description": "For some reason in space. The abilities of the enderchest dont work. So we use Black holes instead.",
+      "x": 22,
+      "y": 146,
+      "icon": {
+        "id": "minecraft:ender_chest"
+      },
+      "prerequisites": [
+        "Storage Solutions"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "dimstorage:block_dimchest"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "dimstorage:block_dimchest"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "IronChest:BlockIronChest",
+          "damage": 3,
+          "amount": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Internet!",
+      "description": "Well it would be nice if it brought the internet back. But instead its an Advanced sorting machine!",
+      "x": 117,
+      "y": 96,
+      "bigicon": true,
+      "icon": {
+        "id": "RouterReborn:router"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "RouterReborn:router"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "RouterReborn:bandwidthupgrade"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "RouterReborn:speedupgrade"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Black hole storage",
+      "description": "On earth we had Deep Storage units. In space we have black holes. So guess what. You can store your items in a black hole! Its perfectly safe. I promise",
+      "x": 191,
+      "y": 97,
+      "bigicon": true,
+      "icon": {
+        "id": "superMassiveTech:blackHoleStorage"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "superMassiveTech:blackHoleStorage"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

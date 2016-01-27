@@ -1,0 +1,391 @@
+{
+  "name": "Stargate:SG Minecraft.",
+  "description": "Stargates in Minecraft. Much Swag Many Wow.",
+  "quests": [
+    {
+      "name": "Starting at the Basics.",
+      "description": "Well i guess when you adventure into a new mod you need the basics. ",
+      "x": 25,
+      "y": 18,
+      "bigicon": true,
+      "icon": {
+        "id": "SGCraft:naquadah"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "SGCraft:naquadah"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "SpaceVenus:null",
+          "damage": 4,
+          "amount": 10
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "superMassiveTech:starHeart",
+          "amount": 10
+        },
+        {
+          "id": "superMassiveTech:starContainer",
+          "amount": 2
+        },
+        {
+          "id": "EnderIO:blockCapBank",
+          "damage": 3,
+          "amount": 3,
+          "nbt": "{type:\"VIBRANT\",storedEnergyRF:0}"
+        },
+        {
+          "id": "SGCraft:naquadah",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Power Hungry.",
+      "description": "Woah! These require alot of power and time to make. Automating it might be a good idea...",
+      "x": 66,
+      "y": 22,
+      "icon": {
+        "id": "SGCraft:naquadahIngot"
+      },
+      "prerequisites": [
+        "Starting at the Basics."
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "SGCraft:naquadahIngot"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:enderQuarryUpgrade",
+          "damage": 6
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "EnderIO:itemPowerConduit",
+          "damage": 2,
+          "amount": 25
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        }
+      ]
+    },
+    {
+      "name": "Building the Frame.",
+      "description": "For this your going to need 8 Frame Blocks. (Not counting the other recipes that require this.)",
+      "x": 47,
+      "y": 49,
+      "icon": {
+        "id": "SGCraft:stargateRing"
+      },
+      "prerequisites": [
+        "Power Hungry."
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "SGCraft:stargateRing"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "SGCraft:stargateRing",
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "SGCraft:naquadah",
+          "amount": 10
+        },
+        {
+          "id": "minecraft:nether_star"
+        }
+      ]
+    },
+    {
+      "name": "Get that Base..",
+      "description": "Well i guess the portal needs some sort of base... This should do the trick.",
+      "x": 77,
+      "y": 53,
+      "icon": {
+        "id": "SGCraft:stargateBase"
+      },
+      "prerequisites": [
+        "Power Hungry."
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "SGCraft:stargateBase"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "SpacePluto:null",
+          "damage": 6,
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "EnderIO:itemPowerConduit",
+          "damage": 2,
+          "amount": 10
+        },
+        {
+          "id": "EnderIO:blockCapBank",
+          "damage": 2,
+          "nbt": "{type:\"ACTIVATED\",storedEnergyRF:0}"
+        },
+        {
+          "id": "OpenBlocks:tank",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Chevron Activated.",
+      "description": "Chevrons. I just think they look cool. But yet they do have a important part in this portal.",
+      "x": 99,
+      "y": 34,
+      "icon": {
+        "id": "SGCraft:stargateRing",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Power Hungry."
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "SGCraft:stargateRing",
+                "damage": 1
+              },
+              "required": 7
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 6
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "EnderIO:itemBrokenSpawner",
+          "nbt": "{mobType:\"Chicken\"}"
+        },
+        {
+          "id": "OpenBlocks:trophy",
+          "nbt": "{entity:\"Chicken\"}"
+        }
+      ]
+    },
+    {
+      "name": "MORE CHEVRONS",
+      "description": "To be able to dial portals on other planets im going to need more Chevrons.",
+      "x": 136,
+      "y": 18,
+      "icon": {
+        "id": "SGCraft:sgChevronUpgrade"
+      },
+      "prerequisites": [
+        "Chevron Activated."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "SGCraft:sgChevronUpgrade"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "SGCraft:sgIrisUpgrade"
+        }
+      ]
+    },
+    {
+      "name": "Power... Portals Need Power.",
+      "description": "Well To transfer power to the portal your going to need to place this. (Place under the base) It needs a high power supply!",
+      "x": 120,
+      "y": 76,
+      "icon": {
+        "id": "SGCraft:rfPowerUnit"
+      },
+      "prerequisites": [
+        "Get that Base.."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "SGCraft:rfPowerUnit"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "SGCraft:ocInterface"
+        }
+      ]
+    },
+    {
+      "name": "Dial Up.",
+      "description": "By that i do not mean Dial Up Broadband. I mean the Dial Device to get to other Portals!",
+      "x": 25,
+      "y": 105,
+      "icon": {
+        "id": "SGCraft:stargateController"
+      },
+      "prerequisites": [
+        "Building the Frame."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "SGCraft:stargateController"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "superMassiveTech:starHeart",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Dr. Whooooo?",
+      "description": "WTF! Suddenly a guy appeared. Rambling stuff about an insane tardis trapped in some underworld. What is this guy talking about? And how did he know I built a stargate? He gave me the coordinates ZFRR-UDG-JY. And that i should prepare ... On servers check the spawn for different coordinates!",
+      "x": 266,
+      "y": 90,
+      "bigicon": true,
+      "icon": {
+        "id": "thedalekmod:jack"
+      },
+      "prerequisites": [
+        "MORE CHEVRONS",
+        "Power... Portals Need Power.",
+        "Dial Up."
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "IMPORTANT: This is meant to be a challenge. Dont wall in, dont try to break blocks if you want the full feeling of achievment!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cobblestone"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:sacrificialKnife"
+        },
+        {
+          "id": "AwesomeSauceComponents:awesomeCore"
+        },
+        {
+          "id": "thedalekmod:jack"
+        }
+      ]
+    },
+    {
+      "name": "Thank you for playing GS",
+      "description": "You now have a tardis at your hand and are free to travel in time and space. At least when you leveled up that tardis! The guided part of the pack is over since you reached T6. Still theres alot to discover in the dalek mod. Worlds with unique bosses await you. We hope you enjoyed the ride. Maybe we will see you again in hypovolemia, an upcoming pack. Cheers!",
+      "x": 254,
+      "y": 38,
+      "icon": {
+        "id": "TardisMod:item.TardisMod.TardisKey"
+      },
+      "prerequisites": [
+        "Dr. Whooooo?"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TardisMod:item.TardisMod.TardisKey"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "thedalekmod:Peter"
+        },
+        {
+          "id": "thedalekmod:tenthDoctorStatue"
+        },
+        {
+          "id": "thedalekmod:Matt"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

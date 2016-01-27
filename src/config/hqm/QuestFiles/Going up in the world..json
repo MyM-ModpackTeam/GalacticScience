@@ -1,0 +1,470 @@
+{
+  "name": "Going up in the world.",
+  "description": "Well you cant stay on the moon forever right? You have loads of planets you can go Destroy.",
+  "quests": [
+    {
+      "name": "Fabricating Circuits.",
+      "description": "To start anything in Galacticraft your going to need some processing and machines. To start making more advanced machines your going to need a circuit fabricator.",
+      "x": 22,
+      "y": 13,
+      "bigicon": true,
+      "icon": {
+        "id": "GalacticraftCore:item.basicItem",
+        "damage": 14
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.machine2",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond"
+        },
+        {
+          "id": "GalacticraftCore:tile.aluminumWire",
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Compressed Future.",
+      "description": "Rockets dont just require Ingots because that would look strange. They require compressed ingots! Make a compresser now to get started!",
+      "x": 66,
+      "y": 17,
+      "icon": {
+        "id": "GalacticraftCore:item.basicItem",
+        "damage": 9
+      },
+      "prerequisites": [
+        "Fabricating Circuits."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.machine",
+                "damage": 12
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_block",
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Its not Rocket Science.",
+      "description": "Well, Maybe it is. But with these plans which your father stole from Nasa, You can create a Nasa Workbench! This allows you to create your own Rockets!",
+      "x": 102,
+      "y": 17,
+      "icon": {
+        "id": "GalacticraftCore:tile.rocketWorkbench"
+      },
+      "prerequisites": [
+        "Compressed Future."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.rocketWorkbench"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:item.basicItem",
+          "damage": 8,
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Refining that black gold.",
+      "description": "Now, to be able to adventure the universe. you need fuel. And for that you need to Refine oil, and for that to work... You need a refinery.",
+      "x": 142,
+      "y": 17,
+      "icon": {
+        "id": "GalacticraftCore:tile.refinery"
+      },
+      "prerequisites": [
+        "Its not Rocket Science."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.refinery"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:item.oilCanisterPartial",
+          "damage": 1001
+        },
+        {
+          "id": "GalacticraftCore:tile.aluminumWire",
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Fuel her up",
+      "description": "Now its not healthy to be rubbing yourself if rocket fuel. So theres a machine that loads the fuel into the rocket for you. The Fuel Loader. Simple name right.",
+      "x": 182,
+      "y": 17,
+      "icon": {
+        "id": "GalacticraftCore:item.fuelCanisterPartial",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Refining that black gold."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.fuelLoader"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:item.basicItem",
+          "damage": 8,
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Thermal Head",
+      "description": "If your going to other planets. Its going to get a bit hot. Or Probably even cold. The Temp change would probably kill you! Best wear some Thermal underlay",
+      "x": 220,
+      "y": 17,
+      "icon": {
+        "id": "GalacticraftMars:item.thermalPadding",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Fuel her up"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:item.thermalPadding"
+              }
+            },
+            {
+              "item": {
+                "id": "GalacticraftMars:item.thermalPadding",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "GalacticraftMars:item.thermalPadding",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "GalacticraftMars:item.thermalPadding",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:wool",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Actual Rocket Science!",
+      "description": "Now this really does require Rocket Science. A T2 Rocket! How fun does that sound your own rocket to go fly to other planets! You are given a soulbound book. This is to put on your rocket. Makes life easier if you die on another planet :)",
+      "x": 257,
+      "y": 17,
+      "icon": {
+        "id": "GalacticraftMars:item.spaceshipTier2"
+      },
+      "prerequisites": [
+        "Thermal Head"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:item.spaceshipTier2"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:tile.landingPad",
+          "amount": 9
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:1s,id:8s}]}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "High Tech Rocket Science!",
+      "description": "Now to be able to visit anywhere you want in this Universe your going to need a T3 Rocket. Quite a bit more advanced then the T2 but completly Worth it.",
+      "x": 298,
+      "y": 18,
+      "icon": {
+        "id": "GalacticraftMars:item.itemTier3Rocket",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Actual Rocket Science!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:item.itemTier3Rocket"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:unstableingot",
+          "amount": 9,
+          "nbt": "{creative:1b}"
+        },
+        {
+          "id": "minecraft:experience_bottle",
+          "amount": 32
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Seal me in.",
+      "description": "If your wanting a place where you dont have to worry about filling your oxygen gear an oxygen sealer is the thing for you! Provides a building full of oxgen.",
+      "x": 48,
+      "y": 56,
+      "icon": {
+        "id": "GalacticraftCore:tile.sealer"
+      },
+      "prerequisites": [
+        "Compressed Future."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.sealer"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:tile.sealer"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Locked In",
+      "description": "After you have your sealer your going to need a way to get in and out without letting all the Air out. Thats where AirLocks come in. When made correctly they will let as little air out as possible.",
+      "x": 85,
+      "y": 56,
+      "icon": {
+        "id": "GalacticraftCore:tile.airLockFrame",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Compressed Future."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.airLockFrame",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:tile.airLockFrame",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

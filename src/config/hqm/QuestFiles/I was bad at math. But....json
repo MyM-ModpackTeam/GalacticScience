@@ -1,0 +1,1045 @@
+{
+  "name": "I was bad at math. But...",
+  "description": "Ever wanted to own a drug store? Nows your chance!",
+  "quests": [
+    {
+      "name": "Sweet Child of mine.",
+      "description": "Lets start with some Chemistry Foo! Hook your Decomposer up to some power and put some Sugarcane in it! Look at that! Pure sugar. Brilliant Food Source which haves some Buffs as well!",
+      "x": 23,
+      "y": 14,
+      "bigicon": true,
+      "icon": {
+        "id": "minechem:minechemMolecule",
+        "damage": 66
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minechem:minechemMolecule",
+                "damage": 66
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:cobblestone",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:log",
+          "amount": 32
+        },
+        {
+          "id": "EnderIO:itemPowerConduit",
+          "amount": 10
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "Molecules and stuff",
+      "description": "We should try some more Basic Chemistry. ",
+      "x": 63,
+      "y": 17,
+      "icon": {
+        "id": "minechem:minechemMolecule"
+      },
+      "prerequisites": [
+        "Sweet Child of mine."
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minechem:minechemMolecule"
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "minechem:minechemElement",
+                "damage": 8
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "minechem:minechemElement",
+                "damage": 1
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "minechem:minechemElement",
+                "damage": 14
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minechem:tile.chemicalSynthesizer"
+        }
+      ]
+    },
+    {
+      "name": "Instrument of the 80\u0027s",
+      "description": "Well now you have some Core Chemicals, What happens when you mix them together? Science Guys!",
+      "x": 49,
+      "y": 45,
+      "icon": {
+        "id": "minechem:tile.chemicalSynthesizer"
+      },
+      "prerequisites": [
+        "Sweet Child of mine."
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minechem:tile.chemicalSynthesizer"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minechem:minechemElement",
+          "damage": 79,
+          "amount": 127
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minechem:minechemElement",
+          "damage": 82,
+          "amount": 64
+        },
+        {
+          "id": "minechem:minechemElement",
+          "damage": 47,
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "I dont want to mine anymore.",
+      "description": "At some point. You need to step up your automation game. Who says you need to spend hours digging the moon.",
+      "x": 19,
+      "y": 58,
+      "icon": {
+        "id": "GalacticraftCore:tile.moonBlock",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Sweet Child of mine."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.moonBlock",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minechem:minechemElement",
+          "damage": 14,
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minechem:minechemMolecule",
+          "damage": 66,
+          "amount": 64
+        },
+        {
+          "id": "minechem:minechemElement",
+          "damage": 26,
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Improving it further.",
+      "description": "Compressed cobble Wields alot of elements in a Decomposer. But manualy crafting all that cobble is tedius. You should automate it.",
+      "x": 19,
+      "y": 93,
+      "icon": {
+        "id": "rftools:crafterBlock1"
+      },
+      "prerequisites": [
+        "I dont want to mine anymore."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:crafterBlock1"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "rftools:crafterBlock2"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ExtraUtilities:extractor_base"
+        },
+        {
+          "id": "EnderIO:itemPowerConduit",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "How much cobble?",
+      "description": "Woah. Thats alot of cobble in that block. Its a shame i cant decompose it but maybe i could make something else out of it.",
+      "x": 19,
+      "y": 127,
+      "icon": {
+        "id": "ExtraUtilities:cobblestone_compressed",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Improving it further."
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:cobblestone_compressed",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:drum",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "GalacticraftCore:item.oilCanisterPartial",
+          "damage": 1
+        },
+        {
+          "id": "minechem:minechemElement",
+          "damage": 79,
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Radiation Decay",
+      "description": "Some elements will have a time till they Decay. If you let them decay they will turn into another Element and also damage you. So a way round this is to use a leaded chest.",
+      "x": 57,
+      "y": 77,
+      "icon": {
+        "id": "minechem:tile.leadChest"
+      },
+      "prerequisites": [
+        "Instrument of the 80\u0027s"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minechem:tile.leadChest"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minechem:minechemElement",
+          "damage": 99,
+          "amount": 16
+        },
+        {
+          "id": "minechem:minechemMolecule",
+          "damage": 25,
+          "amount": 64
+        },
+        {
+          "id": "minechem:minechemMolecule",
+          "damage": 25,
+          "amount": 64
+        },
+        {
+          "id": "minechem:minechemMolecule",
+          "damage": 25,
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Breaking Bad",
+      "description": "Lets Cook! And remember you always need to test to see if its a good batch.",
+      "x": 79,
+      "y": 47,
+      "icon": {
+        "id": "minechem:minechemMolecule",
+        "damage": 34
+      },
+      "prerequisites": [
+        "Instrument of the 80\u0027s"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minechem:minechemMolecule",
+                "damage": 34
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minechem:minechemElement",
+          "damage": 26,
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minechem:minechemMolecule",
+          "damage": 25,
+          "amount": 16
+        },
+        {
+          "id": "minechem:minechemElement",
+          "damage": 79,
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Steady Supply",
+      "description": "Hmm Various nether matierals are needed. You can make them with various methods from Ex Nihlo. But what happens when you decompose them?",
+      "x": 48,
+      "y": 111,
+      "icon": {
+        "id": "minecraft:end_stone"
+      },
+      "prerequisites": [
+        "Radiation Decay"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minechem:minechemElement",
+                "damage": 14
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:glowstone",
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Diamonds and pearls",
+      "description": "Well we already have diamonds. But the moon seems to be lacking enderman. Maybe you should put something together.",
+      "x": 85,
+      "y": 90,
+      "icon": {
+        "id": "minecraft:ender_pearl"
+      },
+      "prerequisites": [
+        "Radiation Decay",
+        "Breaking Bad"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ender_pearl"
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minechem:minechemMolecule",
+          "damage": 26,
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ]
+    },
+    {
+      "name": "In the end...",
+      "description": "Well im sure you can make something better then that out of endstone!",
+      "x": 44,
+      "y": 146,
+      "icon": {
+        "id": "minecraft:quartz"
+      },
+      "prerequisites": [
+        "Steady Supply"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:quartz"
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:end_stone",
+          "amount": 10
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "SolarFlux:solar1"
+        },
+        {
+          "id": "superMassiveTech:starHarvester"
+        }
+      ]
+    },
+    {
+      "name": "After the pearls...",
+      "description": "We should just make Diamonds with minechem just because, Errm i dont know. Just do it because this book is telling you to.",
+      "x": 86,
+      "y": 123,
+      "icon": {
+        "id": "minecraft:diamond_block"
+      },
+      "prerequisites": [
+        "Diamonds and pearls"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minechem:minechemMolecule",
+                "damage": 69
+              },
+              "required": 27
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minechem:minechemElement",
+          "damage": 47,
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minechem:minechemElement",
+          "damage": 79,
+          "amount": 64
+        },
+        {
+          "id": "minechem:minechemElement",
+          "damage": 99,
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "All the Drugs!",
+      "description": "Well. If we made meth, We might as well make Cocaine to go with it.",
+      "x": 97,
+      "y": 14,
+      "icon": {
+        "id": "minechem:minechemMolecule",
+        "damage": 100
+      },
+      "prerequisites": [
+        "Breaking Bad"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minechem:minechemMolecule",
+                "damage": 100
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minechem:minechemMolecule",
+          "damage": 69,
+          "amount": 10
+        },
+        {
+          "id": "minechem:minechemMolecule",
+          "damage": 34,
+          "amount": 10
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minechem:minechemMolecule",
+          "damage": 69,
+          "amount": 10
+        },
+        {
+          "id": "EnderIO:blockStirlingGenerator",
+          "amount": 2
+        },
+        {
+          "id": "minechem:minechemElement",
+          "damage": 1,
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Sands of mine.",
+      "description": "You should probably start collecting this. It seems it would be quite a usefull resource to have. Also something tells you there gonna be a lot of it needed soon.",
+      "x": 133,
+      "y": 13,
+      "icon": {
+        "id": "minecraft:sand"
+      },
+      "prerequisites": [
+        "Breaking Bad"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:sand"
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "superMassiveTech:depletedNetherStar"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Fuel is pumping Engine",
+      "description": "Who knows if this is worth it or not, But this book you seem to follow demands you make it.",
+      "x": 116,
+      "y": 89,
+      "icon": {
+        "id": "minechem:minechemMolecule",
+        "damage": 49
+      },
+      "prerequisites": [
+        "Breaking Bad"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minechem:minechemMolecule",
+                "damage": 49
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "exnihilo:exnihilo.aluminum_ingot",
+          "amount": 10
+        },
+        {
+          "id": "minecraft:redstone",
+          "amount": 20
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 20
+        },
+        {
+          "id": "minechem:minechemElement",
+          "damage": 99
+        },
+        {
+          "id": "minecraft:dye",
+          "damage": 3
+        },
+        {
+          "id": "superMassiveTech:starContainer"
+        }
+      ]
+    },
+    {
+      "name": "Who you gonna call?",
+      "description": "This time i slime him.",
+      "x": 118,
+      "y": 126,
+      "icon": {
+        "id": "minecraft:slime_ball"
+      },
+      "prerequisites": [
+        "Fuel is pumping Engine"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:slime_ball"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:sand",
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minechem:minechemMolecule",
+          "damage": 7,
+          "amount": 10
+        },
+        {
+          "id": "minechem:minechemElement",
+          "damage": 79,
+          "amount": 64
+        },
+        {
+          "id": "minechem:minechemElement",
+          "damage": 47,
+          "amount": 64
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Carrots are good for you.",
+      "description": "It gets a bit dark on the moon. Maybe you should try eating carrots or even better Drinking pure Carrot juice!",
+      "x": 158,
+      "y": 28,
+      "icon": {
+        "id": "minechem:minechemMolecule",
+        "damage": 95
+      },
+      "prerequisites": [
+        "Breaking Bad"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minechem:minechemMolecule",
+                "damage": 95
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minechem:minechemMolecule",
+          "damage": 87,
+          "amount": 10
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minechem:minechemMolecule",
+          "damage": 69,
+          "amount": 10
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Computer, Start Holosimulation",
+      "description": "Blueprint Projector will help you create the multiblock structures needed for Advanced minechem.",
+      "x": 181,
+      "y": 76,
+      "icon": {
+        "id": "minechem:tile.blueprintProjector"
+      },
+      "prerequisites": [
+        "Breaking Bad"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minechem:tile.blueprintProjector"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minechem:minechemMolecule",
+          "damage": 66,
+          "amount": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "GalacticraftCore:item.basicItem",
+          "damage": 16,
+          "amount": 10
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Roly Poly",
+      "description": "Probably the best tool in this pack. Its a all in one tool and you can upgrade it by added elements to it!",
+      "x": 266,
+      "y": 18,
+      "icon": {
+        "id": "minechem:minechemPolytool",
+        "nbt": "{Upgrades:[],Energy:0}"
+      },
+      "prerequisites": [
+        "Computer, Start Holosimulation"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minechem:minechemPolytool",
+                "nbt": "{Upgrades:[],Energy:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:tile.airLockFrame",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minechem:minechemElement",
+          "damage": 2,
+          "amount": 64
+        },
+        {
+          "id": "minechem:minechemElement",
+          "damage": 4,
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Fuuuuuuusion!",
+      "description": "Fusion also called synthesis, is the preocess of combining two or more distinct entities into a new whole. Much wiki wow.",
+      "x": 229,
+      "y": 91,
+      "icon": {
+        "id": "minechem:tile.fusionWall"
+      },
+      "prerequisites": [
+        "Computer, Start Holosimulation"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minechem:tile.fusionWall"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minechem:tile.fusionWall",
+          "amount": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minechem:tile.fusionWall",
+          "damage": 1,
+          "amount": 16
+        },
+        {
+          "id": "minechem:tile.fusionWall",
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "name": "Fission!",
+      "description": "Splitting the atom!",
+      "x": 200,
+      "y": 124,
+      "icon": {
+        "id": "minechem:minechemBlueprint",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Computer, Start Holosimulation"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minechem:tile.fusionWall",
+                "damage": 1
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minechem:minechemElement",
+          "damage": 2,
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "HardcoreQuesting:bags"
+        },
+        {
+          "id": "HardcoreQuesting:bags",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Lets start to split things.",
+      "description": "This would probably be needed for some serious Minechem stuff :o",
+      "x": 181,
+      "y": 156,
+      "icon": {
+        "id": "minechem:minechemElement",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Fission!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minechem:minechemElement",
+                "damage": 4
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:unstableingot",
+          "damage": 1,
+          "amount": 9
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minechem:minechemElement",
+          "damage": 4,
+          "amount": 32
+        },
+        {
+          "id": "minechem:minechemElement",
+          "damage": 99,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "I dont really miss him.",
+      "description": "Who would! You have the ability to create the nether start without even thinking about the wither!",
+      "x": 274,
+      "y": 132,
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "prerequisites": [
+        "Fuuuuuuusion!",
+        "Fission!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:nether_star"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "HardcoreQuesting:bags"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "EnderIO:itemBrokenSpawner",
+          "nbt": "{mobType:\"Enderman\"}"
+        },
+        {
+          "id": "EnderIO:itemBrokenSpawner",
+          "nbt": "{mobType:\"Blaze\"}"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}
