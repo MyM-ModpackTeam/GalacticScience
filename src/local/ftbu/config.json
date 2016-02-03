@@ -1,0 +1,85 @@
+{
+  "backups": {
+    "backup_timer": 2.0,
+    "backups_to_keep": 8,
+    "compression_level": 1,
+    "display_file_size": true,
+    "enabled": true,
+    "folder": "./backups/",
+    "need_online_players": true,
+    "use_separate_thread": true
+  },
+  "commands": {
+    "name_admin": "admin",
+    "name_back": "back",
+    "name_home": "home",
+    "name_spawn": "spawn",
+    "name_tplast": "tpl",
+    "name_warp": "warp"
+  },
+  "general": {
+    "blocked_entities": [],
+    "disable_chunkloading": false,
+    "restart_timer": 0.0,
+    "safe_spawn": false,
+    "server_info_difficulty": true,
+    "server_info_mode": true,
+    "sign_home": true,
+    "sign_warp": true,
+    "spawn_area_in_sp": false,
+    "spawn_pvp": true
+  },
+  "login": {
+    "motd": [],
+    "starting_items": [
+      "HardcoreQuesting:quest_book"
+    ]
+  },
+  "permissions_admin": {
+    "admin_server_info": true,
+    "allow_creative_interact_secure": true,
+    "badge": "",
+    "break_whitelist": [
+      "OpenBlocks:grave"
+    ],
+    "chunkloader_type": "disabled",
+    "cross_dim_homes": false,
+    "custom_config": {},
+    "dimension_blacklist": [],
+    "forced_chunk_security": "-",
+    "forced_explosions": "-",
+    "max_claims": 0,
+    "max_homes": 0,
+    "max_loaded_chunks": 0,
+    "offline_chunkloader_timer": 0.0,
+    "show_rank": true
+  },
+  "permissions_player": {
+    "admin_server_info": false,
+    "allow_creative_interact_secure": false,
+    "badge": "",
+    "break_whitelist": [
+      "OpenBlocks:grave"
+    ],
+    "chunkloader_type": "disabled",
+    "cross_dim_homes": false,
+    "custom_config": {},
+    "dimension_blacklist": [
+      1
+    ],
+    "forced_chunk_security": "-",
+    "forced_explosions": "-",
+    "max_claims": 0,
+    "max_homes": 0,
+    "max_loaded_chunks": 0,
+    "offline_chunkloader_timer": 0.0,
+    "show_rank": true
+  },
+  "tops": {
+    "deaths": true,
+    "deaths_ph": true,
+    "first_joined": true,
+    "last_seen": true,
+    "time_played": true
+  }
+}

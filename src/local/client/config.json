@@ -1,0 +1,22 @@
+{
+  "ftbl": {
+    "item_ore_names": false,
+    "item_reg_names": false,
+    "notifications": "off",
+    "open_hsb_cg": false,
+    "player_options_shortcut": false,
+    "reload_client_cmd": "reload_client"
+  },
+  "ftbu": {
+    "guide_unicode": true,
+    "hide_armor_fg": false,
+    "loaded_chunks_space_key": false,
+    "render_badges": true,
+    "sort_friends_az": false
+  },
+  "sidebar_buttons": {
+    "ftbu.claimed_chunks": false,
+    "ftbu.guide": false,
+    "ftbu.server_info": false
+  }
+}
