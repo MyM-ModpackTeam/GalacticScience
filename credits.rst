@@ -52,3 +52,4 @@ Galactic Science
 - `LaunchGUI <http://minecraft.curseforge.com/projects/launchgui>`_, TehNut
 - `FTBLib <http://minecraft.curseforge.com/projects/ftblib>`_, LatvianModder, jaredlll08
 - `FTBUtilties <http://minecraft.curseforge.com/projects/ftb-utilities>`_, LatvianModder
+- `BetterStorage <http://copy.mcft.net/mc/BetterStorage/>`_, copygirl
