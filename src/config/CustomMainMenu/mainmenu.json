@@ -151,7 +151,13 @@
             "posY" : -20,
             "color" : 10921638,
             "hoverColor" : 10921638,
-            "alignment" : "bottom_right"
+            "alignment" : "bottom_right",
+            "hoverColor" : "13882323",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/MyM-ModpackTeam/GalacticScience/releases/tag/@version@"
+            }
         }
     },
     
