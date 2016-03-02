@@ -171,6 +171,12 @@ recipes.addShaped(<EnderIO:itemMachinePart>,
 	[<ore:ingotDesh>, <EnderIO:itemBasicCapacitor>, <GalacticraftMars:item.null:2>], 
 	[<minecraft:iron_bars>, <GalacticraftMars:item.null:2>, <minecraft:iron_bars>]]);
 
+recipes.remove(<EnderIO:itemYetaWrench>);
+recipes.addShaped(<EnderIO:itemYetaWrench>, 
+	[[<ore:ingotIron>, null, <ore:ingotIron>], 
+	[null, <EnderIO:itemMachinePart:1>, null], 
+	[null, <ore:ingotIron>, null]]);
+
 // ================================================================================
 // Minechem
 
