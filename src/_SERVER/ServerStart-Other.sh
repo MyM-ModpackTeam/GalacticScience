@@ -3,7 +3,7 @@
 cd "$(dirname "$0")"
 
 # Read config
-source config.txt
+. ./config.txt
 
 # makes things easier if script needs debugging
 if [ x$FTB_VERBOSE = xyes ]; then
