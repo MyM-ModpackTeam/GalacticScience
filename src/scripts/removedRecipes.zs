@@ -68,6 +68,10 @@ recipes.remove(<SolarFlux:solar1>);
 
 recipes.remove(<chisel:smashingrock>);
 
+// ================================================================================
+// ModularSystems
+
+recipes.remove(<modularsystems:crusherCore>);
 
 // ================================================================================
 

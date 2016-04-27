@@ -27,6 +27,10 @@ NEI.hide(<ExtraUtilities:dark_portal:*>);
 
 NEI.hide(<GalacticraftCore:item.spaceship:*>);
 
+// ================================================================================
+// ModularSystems
+
+NEI.hide(<modularsystems:crusherCore>);
 
 // ================================================================================
 
