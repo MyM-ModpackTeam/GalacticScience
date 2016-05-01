@@ -31,6 +31,12 @@ NEI.hide(<GalacticraftCore:item.spaceship:*>);
 // ModularSystems
 
 NEI.hide(<modularsystems:crusherCore>);
+NEI.hide(<modularsystems:powerSolids>);
+NEI.hide(<modularsystems:powerLiquids>);
+NEI.hide(<modularsystems:supplierRF>);
+NEI.hide(<modularsystems:powerRF>);
+NEI.hide(<modularsystems:generatorCore>);
+NEI.hide(<modularsystems:storageSmashing>);
 
 // ================================================================================
 
