@@ -72,6 +72,12 @@ recipes.remove(<chisel:smashingrock>);
 // ModularSystems
 
 recipes.remove(<modularsystems:crusherCore>);
+recipes.remove(<modularsystems:powerSolids>);
+recipes.remove(<modularsystems:powerLiquids>);
+recipes.remove(<modularsystems:supplierRF>);
+recipes.remove(<modularsystems:powerRF>);
+recipes.remove(<modularsystems:generatorCore>);
+recipes.remove(<modularsystems:storageSmashing>);
 
 // ================================================================================
 
