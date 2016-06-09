@@ -165,4 +165,13 @@ recipes.addShaped(<Eln:Eln.sharedItem:7>, [[<minecraft:gold_ingot>, <ore:stickWo
 
 // ================================================================================
 
+// ================================================================================
+// Ender IO
+
+recipes.addShaped(<EnderIO:itemFrankenSkull:4>,[
+	[null, <EnderIO:itemMaterial:6>, null],
+	[<EnderIO:itemMaterial:5>, <EnderIO:itemFrankenSkull:3>, <EnderIO:itemMaterial:5>],
+	[null, <EnderIO:itemMaterial:6>, null]]);
+
+// ================================================================================
 print("Initialized 'customRecipes.zs'");
