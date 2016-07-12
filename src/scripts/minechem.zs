@@ -47,6 +47,9 @@ Decomposer.addRecipe(cobble4x,0.12,[[Na*1170,Cl*1170,Si*1170,Mg*1170,Ti*1170,Fe*
 
 // 64 SG blocks = 5248 pearls and a ton of power
 
+// Electrical Age - Tungsten Ingot
+Synthesiser.addRecipe([<minechem:minechemElement:74>*16],<Eln:Eln.sharedItem:517>,false,300);
+
 
 // ================================================================================
 
