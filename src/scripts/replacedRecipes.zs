@@ -75,17 +75,6 @@ recipes.addShaped(<SGCraft:stargateRing>,
 	[<SpacePluto:null:6>, <SpacePluto:null:6>, <SpacePluto:null:6>]]);
 
 // ================================================================================
-// ModularSystems
-
-/*
-recipes.remove(<modularsystems:storageCore>);
-recipes.addShaped(<modularsystems:storageCore>, 
-	[[<ore:plankWood>, <ore:plankWood>, <minecraft:planks>], 
-	[<minecraft:planks>, <ore:ingotDesh>, <ore:plankWood>], 
-	[<ore:plankWood>, <ore:plankWood>, <minecraft:planks>]]);
-*/
-
-// ================================================================================
 // DimStorage
 
 recipes.remove(<dimstorage:item_dimwall>);
