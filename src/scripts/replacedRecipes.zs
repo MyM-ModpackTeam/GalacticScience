@@ -26,7 +26,7 @@ recipes.addShaped(<AWWayofTime:Altar>,
 // TardisMod
 
 recipes.remove(<TardisMod:item.TardisMod.TardisKey>);
-mods.bloodmagic.Altar.addRecipe(<TardisMod:item.TardisMod.TardisKey>, <AwesomeSauceComponents:awesomeCore>, 1, 100000, 15, 15);
+mods.bloodmagic.Altar.addRecipe(<TardisMod:item.TardisMod.TardisKey>, <AwesomeSauceComponents:awesomeCore>, 1, 50000, 15, 15);
 
 
 // ================================================================================
