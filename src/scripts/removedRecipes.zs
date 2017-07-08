@@ -69,10 +69,12 @@ recipes.remove(<SolarFlux:solar1>);
 recipes.remove(<chisel:smashingrock>);
 
 // ================================================================================
+// EnderIO fix. Remove diamond recipe  so opencomputers T3 could be used. Credits to #Печенюх Сергей. 
+recipes.remove(<EnderIO:itemWeatherCrystal);
+
+// ================================================================================
 
 print("Initialized 'removedRecipes.zs'");
 
 
-// ================================================================================
-// EnderIO fix. Remove diamond recipe  so opencomputers T3 could be used. Credits to #Печенюх Сергей. 
-recipes.remove(<EnderIO:itemWeatherCrystal);
+
