@@ -75,6 +75,3 @@ recipes.remove(<EnderIO:itemWeatherCrystal);
 // ================================================================================
 
 print("Initialized 'removedRecipes.zs'");
-
-
-
