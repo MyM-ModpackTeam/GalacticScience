@@ -1,5 +1,6 @@
 language: java
-skip_cleanup: true
+# Only build tags
+if: tag IS present
 install:
 - true
 script:
@@ -7,11 +8,12 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: X897zWbauuhY41eEvB1Tmcu/nq3mtWVDv7RSyPBhrPLdUtQ+RDrX2VaSrxCpm7DggALSbiRxoPMO5nrufBkIGge3wKAPBA+iPJ7hJYDu496fuvUFnpQomZfoIbEBydh1438ILqPPsJxNtJtmqcukVrUHz8rWzkqG9JGSE4gHcgjpPAZHwEFtgsD4oS8YKo9aWGCsgXAswzF/p//sAW3gj/rwG4XzploUbnhmfhvn4DpEegINLEM+JGd9Q7enFRDHS7JEYZZ0XCQ8XP9JQDlRyGRAJwy8NH0cIqat8TdIpEVz+p9HHx+c0Q7FPCCsFFpoLjHq/m/l48C8l6yyA5vdeIiKaXD6M1tk4XPyrjRpy5oduiiWGtXnSzkmzt5uCKIz/KP91mc54ZfDKLHRk/CP31HThI5yPooq/14NFyKAvfKFBdni+xohEYloqtXF1HVBX12yhDTktZNXSPnotsfJmuZ84GBKM5napSPYIGvhhFY/Q9kwXXOrO2nj+U8AxJxC6MLWeeZz1x4cY7ODZ3VH5Dro79oqeKDIR3YUGQ4c/YNGW/CYJ0wc0VeSGmuWJguxr3GT0upSZNITVGcDgWUWd4XXo2m5xahQgteIOs+S27wnF9Ff4fQaS2Gt7nrHTkGXtmA499Xw6x15LVJSuVgsp43CXBKdnyQsoZy3ezVI314=
+    secure: V4iWzP4pbLJDk5e6owe6ztlinLnFgH4iVKtp/XMYbDk3YRFe51zgO/vO9pUmjCPG7UdD4bVZm/MAwwuunxHJaFcXFbSSKPm3AZunU1bl8XHyD3q8AXtrdhKzS1SGgzGafrftxlwjcTYWCXeTabNWp4mXWFJX+wvhI3TAD+SihqhQe9btcftpDWJSE/wcuZroozp2m+gU7bcyC5GRoTbol8DSwXm4E+tdSONdaOo1GPaoy2USMWCSIO0nFNic3Adm/cqmo3Kmzu4gvSIFkmvGIXz6n/DN8dEQZti5crqo3KmE1bwUJ7PVCkwWq4agP0bK3AthUgKRM056X+G4DQJNHwBc4IapyhDVH3L2O3FML28fXHGbcsJNbqolP412mnr2p0Tpy/67DKP64SP6+UcZjcJt4gBmUmrjN6lBaRnO9Fpt0y0if1jA50MLjEMc6g1mwvTY1utPYgZrOw09eN++Fhd3rNoNhoAp4c5UjIfHOsct8RlVaaLHSLKfx5XAuLZ8aMaE/R3i5qyYJqM9OKgOog6EtP3RHXa7cA3BmWX/A6W7yCdZhdFSJ/AQOy41EQANgY72jrcH+38wF0hUEZQRyyZo7A5UWIko5pM0YN7AIWSRClnUAWz4zYJZufBfmLdIOB40cjtf4nu/5pqU2k3ADtLeft04KsDzL/3Tp9Lv9z4=
   file_glob: true
   file:
   - build/Galactic Science_*_Client.zip
   - build/Galactic Science_*_Server.zip
+  skip_cleanup: true
   on:
     tags: true
 notifications:
