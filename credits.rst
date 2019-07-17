@@ -47,8 +47,9 @@ Galactic Science
 - `Immibis Core <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1281065-immibiss-mods-now-with-85-7-less-version-numbers>`_ immibis
 - `Electrical Age <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2104648-electrical-age-physics-electric-circuits-more>`_, Electrical Age Team
 - `Advanced Generators <http://bdew.net/generators/>`_, bdew
-- `MineTweaker <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1290366-1-6-4-1-7-x-minetweaker-3-customize-your>`_, StanH
+- `CraftTweaker <https://www.curseforge.com/minecraft/mc-mods/crafttweaker>`_, Jaredlll08
 - `LaunchGUI <http://minecraft.curseforge.com/projects/launchgui>`_, TehNut
 - `FTBLib <http://minecraft.curseforge.com/projects/ftblib>`_, LatvianModder, jaredlll08
 - `FTBUtilties <http://minecraft.curseforge.com/projects/ftb-utilities>`_, LatvianModder
 - `BetterStorage <http://copy.mcft.net/mc/BetterStorage/>`_, copygirl
+- `Default Options <https://www.curseforge.com/minecraft/mc-mods/default-options>`_, BlayTheNinth
