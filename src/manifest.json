@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Galactic Science",
-  "version": "1.6.4",
+  "version": "@version@",
   "author": "Caithleen",
   "projectID": 232015,
   "files": [

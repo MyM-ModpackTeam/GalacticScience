@@ -11,6 +11,7 @@ import org.apache.tools.ant.filters.ReplaceTokens
 version = packVersion
 description = packDescription
 def forgeCompatibility = packForgeCompatibility
+def replaceTokenPattern = /.*\.(properties|txt|json|cfg|conf|config|xml|recipes)/
 
 ext {
     buildSources = "$buildDir/sources"
@@ -19,64 +20,50 @@ ext {
 task buildAll(dependsOn: ['buildServer', 'buildClient', 'buildCurse'])
 
 task compileServer(type: Copy) {
-    doFirst {
-        delete("$buildSources/server")
-    }
+    delete "$buildSources/server"
+
     from('src') {
         exclude '**/_CLIENT/**'
-    }
-    from('src') {
-        include '**/*.properties'
-        include '**/*.txt'
-        include '**/*.json'
-        include '**/*.cfg'
-        include '**/*.conf'
-        include '**/*.config'
-        include '**/*.xml'
-        include '**/*.recipes'
-        exclude '**/_CLIENT/**'
-        filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
+        exclude 'manifest.json'
     }
     into "$buildSources/server"
 
     eachFile { details ->
         details.path = details.path.replaceAll('_SERVER', '');
+
+        if (details.getName() ==~ replaceTokenPattern) {
+            filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
+        }
     }
     includeEmptyDirs = false
 }
 
 task compileClient(type: Copy) {
-    doFirst {
-        delete("$buildSources/client")
-    }
+    delete "$buildSources/client"
+
     from('src') {
         exclude '**/_SERVER/**'
-    }
-    from('src') {
-        include '**/*.properties'
-        include '**/*.txt'
-        include '**/*.json'
-        include '**/*.cfg'
-        include '**/*.conf'
-        include '**/*.config'
-        include '**/*.xml'
-        include '**/*.recipes'
-        exclude '**/_SERVER/**'
-        filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
+        exclude 'manifest.json'
     }
     into "$buildSources/client"
-
+    
     eachFile { details ->
         details.path = details.path.replaceAll('_CLIENT', '');
+
+        if (details.getName() ==~ replaceTokenPattern) {
+            filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
+        }
     }
     includeEmptyDirs = false
 }
 
 task compileCurse(type: Copy) {
     delete "$buildSources/curse"
+
     copy {
         from('src') {
             exclude '**/_SERVER/**'
+            exclude '_CLIENT/bin'
             exclude 'manifest.json'
         }
         into "$buildSources/curse/overrides"
@@ -84,7 +71,7 @@ task compileCurse(type: Copy) {
         eachFile { details ->
             details.path = details.path.replaceAll('_CLIENT', '');
 
-            if (details.getName() ==~ /.*\.(properties|txt|json|cfg|conf|config|xml|recipes)/) {
+            if (details.getName() ==~ replaceTokenPattern) {
                 filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
             }
 
@@ -106,6 +93,7 @@ task compileCurse(type: Copy) {
     copy {
         from('src') {
             include 'manifest.json'
+            filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
         }
         into "$buildSources/curse"
     }
