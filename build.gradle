@@ -16,7 +16,7 @@ ext {
     buildSources = "$buildDir/sources"
 }
 
-task buildAll(dependsOn: ['buildServer', 'buildClient'])
+task buildAll(dependsOn: ['buildServer', 'buildClient', 'buildCurse'])
 
 task compileServer(type: Copy) {
     doFirst {
@@ -72,6 +72,45 @@ task compileClient(type: Copy) {
     includeEmptyDirs = false
 }
 
+task compileCurse(type: Copy) {
+    delete "$buildSources/curse"
+    copy {
+        from('src') {
+            exclude '**/_SERVER/**'
+            exclude 'manifest.json'
+        }
+        into "$buildSources/curse/overrides"
+
+        eachFile { details ->
+            details.path = details.path.replaceAll('_CLIENT', '');
+
+            if (details.getName() ==~ /.*\.(properties|txt|json|cfg|conf|config|xml|recipes)/) {
+                filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
+            }
+
+            if (details.getPath().startsWith('mods/')) {
+                def includeMods = project.unavailableCurseMods.split(',')
+                def exclude = true
+                for(mod in includeMods) {
+                    if (details.getName() ==~ /${mod}/) {
+                        exclude = false
+                    }
+                }
+                if (exclude) {
+                    details.exclude()
+                }
+            }
+        }
+        includeEmptyDirs = false
+    }
+    copy {
+        from('src') {
+            include 'manifest.json'
+        }
+        into "$buildSources/curse"
+    }
+}
+
 task buildServer(type: Zip, dependsOn: ['compileServer']) {
     from "$buildSources/server"
     baseName = "$buildDir/${project.name}_${project.version}_Server"
@@ -80,4 +119,9 @@ task buildServer(type: Zip, dependsOn: ['compileServer']) {
 task buildClient(type: Zip, dependsOn: ['compileClient']) {
     from "$buildSources/client"
     baseName = "$buildDir/${project.name}_${project.version}_Client"
+}
+
+task buildCurse(type: Zip, dependsOn: ['compileCurse']) {
+    from "$buildSources/curse"
+    baseName = "$buildDir/${project.name}_${project.version}_CurseProfile"
 }
