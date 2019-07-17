@@ -53,3 +53,4 @@ Galactic Science
 - `FTBUtilties <http://minecraft.curseforge.com/projects/ftb-utilities>`_, LatvianModder
 - `BetterStorage <http://copy.mcft.net/mc/BetterStorage/>`_, copygirl
 - `Default Options <https://www.curseforge.com/minecraft/mc-mods/default-options>`_, BlayTheNinth
+- `CraftPresence <https://www.curseforge.com/minecraft/mc-mods/craftpresence>`_, CDAGaming
