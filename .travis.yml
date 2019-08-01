@@ -12,6 +12,7 @@ deploy:
   file_glob: true
   file:
   - build/Galactic Science_*_Client.zip
+  - build/Galactic Science_*_CurseProfile.zip
   - build/Galactic Science_*_Server.zip
   skip_cleanup: true
   on:
