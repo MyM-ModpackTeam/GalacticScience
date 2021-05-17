@@ -1,7 +1,7 @@
 # GalacticScience
 ![promo](http://i.imgur.com/mNjrk0a.jpg)
 
-###Compiling
+### Compiling
 Terminal/Command Prompt:
 
     ./gradlew buildAll
@@ -10,7 +10,7 @@ Windows syntax:
 
     gradlew buildAll
     
-###Wiki
+### Wiki
 
 New players, please see the [Wiki](https://github.com/MyM-ModpackTeam/GalacticScience/wiki) for additional modpack information and a quick Getting Started guide.
 
