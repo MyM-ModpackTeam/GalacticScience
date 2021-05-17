@@ -100,16 +100,22 @@ task compileCurse(type: Copy) {
 }
 
 task buildServer(type: Zip, dependsOn: ['compileServer']) {
+    archiveFileName = "${project.name}_${project.version}_Server.zip"
+    destinationDirectory = file("$buildDir")
+
     from "$buildSources/server"
-    baseName = "$buildDir/${project.name}_${project.version}_Server"
 }
 
 task buildClient(type: Zip, dependsOn: ['compileClient']) {
+    archiveFileName = "${project.name}_${project.version}_Client.zip"
+    destinationDirectory = file("$buildDir")
+
     from "$buildSources/client"
-    baseName = "$buildDir/${project.name}_${project.version}_Client"
 }
 
 task buildCurse(type: Zip, dependsOn: ['compileCurse']) {
+    archiveFileName = "${project.name}_${project.version}_CurseProfile.zip"
+    destinationDirectory = file("$buildDir")
+
     from "$buildSources/curse"
-    baseName = "$buildDir/${project.name}_${project.version}_CurseProfile"
 }
