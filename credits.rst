@@ -19,7 +19,7 @@ Galactic Science
 - `Minechem <https://jakimfett.github.io/Minechem/>`_,  jakimfett
 - `ModTweaker <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2093121-1-7-x-modtweaker-0-5d-minetweaker-addon>`_, joshie
 - `NEI Addons <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289113-nei-addons-v1-12-2-now-supports-botany-flower>`_, bdew
-- `NotEnoughItems <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods>`_, Chickenbones
+- `NotEnoughItems <https://github.com/GTNewHorizons/NotEnoughItems>`_, mitchej123 and the GTNH Team
 - `Nuclearcraft <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2187231-nuclearcraft-mod-rf-reactors-nuclear-power>`_, TLJGames
 - `OpenAutomation <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2093100-sandras-mods-openautomation-now-with-lasers>`_, gjgfuj
 - `OpenBlocks <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291207-openblocks-1-2-8>`_, OpenMods Team
